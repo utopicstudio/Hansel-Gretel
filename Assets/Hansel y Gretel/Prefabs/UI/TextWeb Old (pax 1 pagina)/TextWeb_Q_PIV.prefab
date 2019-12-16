@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3865406394304119661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6810393799237080391, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Name
+      value: TextWeb_Q_PIV
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.337036
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -174.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.004956206
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999877
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -720.568
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970142433498271940, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00000017693478
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970142433498271940, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_text
+      value: "Hansel y Gretel viv\xEDan muy cerca de un espeso bosque con su padre
+        que era un pobre le\xF1ador y su cruel madrastra. Viv\xEDan con much\xEDsima
+        escasez y ya no les alcanzaba para que los cuatro pudieran comer.\r\nUna noche,
+        creyendo que los ni\xF1os estaban dormidos, la cruel madrastra dijo al le\xF1ador:
+        <b>-No hay bastante comida para todos. Ma\xF1ana llevaremos a los ni\xF1os
+        a la parte m\xE1s espesa del bosque y los dejaremos all\xED. Ellos no podr\xE1n
+        encontrar el camino a casa y as\xED nos desprenderemos de esa carga</b>. Al
+        principio, el padre se opuso rotundamente a la cruel idea de la malvada mujer.\r\n<size=26>\u2013\xBFC\xF3mo
+        vamos a abandonar a mis hijos a su suerte?, \xA1quiz\xE1s sean atacados por
+        los animales del bosque! -<size=18>grit\xF3 enojado.\r\n<b>\u2013De cualquier
+        manera, as\xED moriremos todos de hambre</b> \u2013dijo la madrastra y no
+        descans\xF3 hasta convencer al d\xE9bil hombre de llevar adelante el mal\xE9volo
+        plan que se hab\xEDa trazado.\r\nSin embargo, los ni\xF1os escucharon toda
+        la conversaci\xF3n. Gretel lloraba amargamente y Hansel la consolaba:<br><b>\u2013No
+        llores, querida hermanita \u2013dec\xEDa \xE9l\u2013, \xA1Yo tengo una idea
+        para encontrar el camino de regreso a casa!</b>\r\nA la ma\xF1ana siguiente,
+        cuando salieron hacia el bosque, la madrastra les dio a cada uno de los ni\xF1os
+        un pedazo de pan. <br><b>\u2013No deben comer este pan antes del almuerzo
+        </b>\u2013les dijo\u2013. <b>Eso es todo lo que tendr\xE1n para la tarde.</b>\r\nEl
+        dominado padre y la madrastra los acompa\xF1aron a adentrarse en el bosque.
+        Cuando penetraron en la espesura, los ni\xF1os se quedaron atr\xE1s. Hansel,
+        haciendo migas de su pan, las fue dejando caer con disimulo para tener se\xF1ales
+        que les permitieran luego regresar a casa.\r\nLos padres los llevaron muy
+        adentro del bosque y la madrastra les dijo: <b>\u2014Ya se acerca la hora
+        de irnos. Qu\xE9dense aqu\xED hasta que vengamos a buscarlos.</b> <br>Hansel
+        y Gretel hicieron lo que sus padres hab\xEDan ordenado. Pero cuando se acerc\xF3
+        la noche, trataron de encontrar el camino de regreso.\r\nDesgraciadamente,
+        los p\xE1jaros se hab\xEDan comido las migas que marcaban el camino. Toda
+        la noche, anduvieron por el bosque con mucho temor observando el brillo de
+        los ojos de las fieras y a cada paso se perd\xEDan m\xE1s en aquella espesura.\r\nAl
+        amanecer, casi muertos de miedo y de hambre, los ni\xF1os vieron un p\xE1jaro
+        blanco que volaba frente a ellos.  El p\xE1jaro les aleteaba en se\xF1al amistosa
+        para animarlos a seguir adelante.\r\nSiguiendo el vuelo de aquel p\xE1jaro
+        encontraron una extra\xF1a casita. \r\nEstaba construida de panes, dulces,
+        bombones y otras golosinas muy sabrosas.\r\nLos ni\xF1os, con un apetito terrible,
+        corrieron hasta la casita, para comer los riqu\xEDsimos dulces, pero una bruja
+        los detuvo. <br>La casa estaba hecha para atraer a los ni\xF1os y cuando \xE9stos
+        se encontraban en su poder, la bruja los mataba y los cocinaba para com\xE9rselos.\r\nComo
+        Hansel estaba muy delgadito, la bruja lo encerr\xF3 en una jaula y all\xED
+        lo alimentaba con ricos y sustanciosos manjares para engordarlo. Mientras
+        tanto, Gretel ten\xEDa que hacer los trabajos m\xE1s pesados y s\xF3lo ten\xEDa
+        c\xE1scaras de cangrejos para comer.\r\n\"Un d\xEDa, la bruja decidi\xF3 que
+        Hansel estaba listo y orden\xF3 a Gretel que preparara una enorme cacerola
+        de agua para cocinarlo.<br><b><size=20>\u2014Primero</size></b> \u2014dijo
+        la bruja\u2014<b><size=20>, vamos a ver el horno que yo prend\xED para hacer
+        pan. Entra t\xFA primero, Gretel, y f\xEDjate si est\xE1 bien caliente como
+        para hornear.\n</size></b>\"\r\nEn realidad la bruja pensaba cerrar la puerta
+        del horno una vez que Gretel estuviera dentro para cocinarla a ella tambi\xE9n.
+        Pero Gretel que era muy astuta hizo como que no entend\xEDa lo que la bruja
+        dec\xEDa.\r\n\u2014<b><size=21>Yo no s\xE9. \xBFC\xF3mo entro? </size></b>\u2014pregunt\xF3
+        Gretel. <br>\u2014<b><size=36>\xA1Tonta! </size></b>\u2014grit\xF3 la bruja\u2014,
+        <b><size=21>mira c\xF3mo se hace</size></b> \u2014y la bruja meti\xF3 la cabeza
+        dentro del horno. <br>R\xE1pidamente Gretel la empuj\xF3 dentro del horno
+        y cerr\xF3 la puerta.\r\nGretel puso en libertad a Hansel. Pero antes de irse...\r\nLos
+        dos ni\xF1os se llenaron los bolsillos de perlas y piedras preciosas del tesoro
+        de la bruja.\r\nLos ni\xF1os huyeron del bosque hasta llegar a orillas de
+        un inmenso lago que parec\xEDa imposible de atravesar. Afortunadamente, un
+        hermoso cisne blanco les ofreci\xF3 cruzarlos hasta el muelle.\r\nCon gran
+        alegr\xEDa, los ni\xF1os encontraron a su padre all\xED. La cruel madrastra
+        no estaba porque ella hab\xEDa muerto. El padre hab\xEDa sufrido mucho por
+        la ausencia de los ni\xF1os y los hab\xEDa buscado por todas partes.\r\nDejando
+        caer los tesoros a los pies de su padre, los ni\xF1os se arrojaron en sus
+        brazos. Juntos olvidaron todos los malos momentos que hab\xEDan pasado. As\xED,
+        Hansel y Gretel supieron que lo m\xE1s importante en la vida es estar junto
+        a los seres queridos. Desde ese momento, vivieron felices y ricos para siempre."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 4485
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 779
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 772
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 124
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089515497287645660, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396398372290495857, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396398372290495857, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.13090001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396398372290495857, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.13090001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396398372290495857, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.13090001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396398372290495857, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 30.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7396398372290495857, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635887891580, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635887891580, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873635004458941101, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 429381685981831378, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 429381685981831378, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 429381685981831378, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -4.9901
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180344914165550329, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180344914165550329, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -4.9901
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303880684806191261, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2466.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303880684806191261, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 2466.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303880684806191261, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_text
+      value: "Hansel y Gretel viv\xEDan muy cerca de un espeso bosque con su padre
+        que era un pobre le\xF1ador y su cruel madrastra. Viv\xEDan con much\xEDsima
+        escasez y ya no les alcanzaba para que los cuatro pudieran comer.\r\nUna noche,
+        creyendo que los ni\xF1os estaban dormidos, la cruel madrastra dijo al le\xF1ador:
+        <b>-No hay bastante comida para todos. Ma\xF1ana llevaremos a los ni\xF1os
+        a la parte m\xE1s espesa del bosque y los dejaremos all\xED. Ellos no podr\xE1n
+        encontrar el camino a casa y as\xED nos desprenderemos de esa carga</b>. Al
+        principio, el padre se opuso rotundamente a la cruel idea de la malvada mujer.\r\n<size=26>\u2013\xBFC\xF3mo
+        vamos a abandonar a mis hijos a su suerte?, \xA1quiz\xE1s sean atacados por
+        los animales del bosque! -<size=18>grit\xF3 enojado.\r\n<b>\u2013De cualquier
+        manera, as\xED moriremos todos de hambre</b> \u2013dijo la madrastra y no
+        descans\xF3 hasta convencer al d\xE9bil hombre de llevar adelante el mal\xE9volo
+        plan que se hab\xEDa trazado.\r\nSin embargo, los ni\xF1os escucharon toda
+        la conversaci\xF3n. Gretel lloraba amargamente y Hansel la consolaba:<br><b>\u2013No
+        llores, querida hermanita \u2013dec\xEDa \xE9l\u2013, \xA1Yo tengo una idea
+        para encontrar el camino de regreso a casa!</b>\r\nA la ma\xF1ana siguiente,
+        cuando salieron hacia el bosque, la madrastra les dio a cada uno de los ni\xF1os
+        un pedazo de pan. <br><b>\u2013No deben comer este pan antes del almuerzo
+        </b>\u2013les dijo\u2013. <b>Eso es todo lo que tendr\xE1n para la tarde.</b>\r\nEl
+        dominado padre y la madrastra los acompa\xF1aron a adentrarse en el bosque.
+        Cuando penetraron en la espesura, los ni\xF1os se quedaron atr\xE1s. Hansel,
+        haciendo migas de su pan, las fue dejando caer con disimulo para tener se\xF1ales
+        que les permitieran luego regresar a casa.\r\nLos padres los llevaron muy
+        adentro del bosque y la madrastra les dijo: <b>\u2014Ya se acerca la hora
+        de irnos. Qu\xE9dense aqu\xED hasta que vengamos a buscarlos.</b> <br>Hansel
+        y Gretel hicieron lo que sus padres hab\xEDan ordenado. Pero cuando se acerc\xF3
+        la noche, trataron de encontrar el camino de regreso.\r\nDesgraciadamente,
+        los p\xE1jaros se hab\xEDan comido las migas que marcaban el camino. Toda
+        la noche, anduvieron por el bosque con mucho temor observando el brillo de
+        los ojos de las fieras y a cada paso se perd\xEDan m\xE1s en aquella espesura.\r\nAl
+        amanecer, casi muertos de miedo y de hambre, los ni\xF1os vieron un p\xE1jaro
+        blanco que volaba frente a ellos.  El p\xE1jaro les aleteaba en se\xF1al amistosa
+        para animarlos a seguir adelante.\r\nSiguiendo el vuelo de aquel p\xE1jaro
+        encontraron una extra\xF1a casita. \r\nEstaba construida de panes, dulces,
+        bombones y otras golosinas muy sabrosas.\r\nLos ni\xF1os, con un apetito terrible,
+        corrieron hasta la casita, para comer los riqu\xEDsimos dulces, pero una bruja
+        los detuvo. <br>La casa estaba hecha para atraer a los ni\xF1os y cuando \xE9stos
+        se encontraban en su poder, la bruja los mataba y los cocinaba para com\xE9rselos.\r\nComo
+        Hansel estaba muy delgadito, la bruja lo encerr\xF3 en una jaula y all\xED
+        lo alimentaba con ricos y sustanciosos manjares para engordarlo. Mientras
+        tanto, Gretel ten\xEDa que hacer los trabajos m\xE1s pesados y s\xF3lo ten\xEDa
+        c\xE1scaras de cangrejos para comer.\r\n\"Un d\xEDa, la bruja decidi\xF3 que
+        Hansel estaba listo y orden\xF3 a Gretel que preparara una enorme cacerola
+        de agua para cocinarlo.<br><b><size=20>\u2014Primero</size></b> \u2014dijo
+        la bruja\u2014<b><size=20>, vamos a ver el horno que yo prend\xED para hacer
+        pan. Entra t\xFA primero, Gretel, y f\xEDjate si est\xE1 bien caliente como
+        para hornear.\n</size></b>\"\r\nEn realidad la bruja pensaba cerrar la puerta
+        del horno una vez que Gretel estuviera dentro para cocinarla a ella tambi\xE9n.
+        Pero Gretel que era muy astuta hizo como que no entend\xEDa lo que la bruja
+        dec\xEDa.\r\n\u2014<b><size=21>Yo no s\xE9. \xBFC\xF3mo entro? </size></b>\u2014pregunt\xF3
+        Gretel. <br>\u2014<b><size=36>\xA1Tonta! </size></b>\u2014grit\xF3 la bruja\u2014,
+        <b><size=21>mira c\xF3mo se hace</size></b> \u2014y la bruja meti\xF3 la cabeza
+        dentro del horno. <br>R\xE1pidamente Gretel la empuj\xF3 dentro del horno
+        y cerr\xF3 la puerta.\r\nGretel puso en libertad a Hansel. Pero antes de irse...\r\nLos
+        dos ni\xF1os se llenaron los bolsillos de perlas y piedras preciosas del tesoro
+        de la bruja.\r\nLos ni\xF1os huyeron del bosque hasta llegar a orillas de
+        un inmenso lago que parec\xEDa imposible de atravesar. Afortunadamente, un
+        hermoso cisne blanco les ofreci\xF3 cruzarlos hasta el muelle.\r\nCon gran
+        alegr\xEDa, los ni\xF1os encontraron a su padre all\xED. La cruel madrastra
+        no estaba porque ella hab\xEDa muerto. El padre hab\xEDa sufrido mucho por
+        la ausencia de los ni\xF1os y los hab\xEDa buscado por todas partes.\r\nDejando
+        caer los tesoros a los pies de su padre, los ni\xF1os se arrojaron en sus
+        brazos. Juntos olvidaron todos los malos momentos que hab\xEDan pasado. As\xED,
+        Hansel y Gretel supieron que lo m\xE1s importante en la vida es estar junto
+        a los seres queridos. Desde ese momento, vivieron felices y ricos para siempre."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 575
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 4485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007851673805753949, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595722592562045209, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595722592562045209, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Size
+      value: 0.06607743
+      objectReference: {fileID: 0}
+    - target: {fileID: 8149740214337169249, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912710185982380226, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Value
+      value: 0.18421052
+      objectReference: {fileID: 0}
+    - target: {fileID: 4912710185982380226, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Size
+      value: 0.99999815
+      objectReference: {fileID: 0}
+    - target: {fileID: 890955073155236275, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 890955073155236275, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.06607743
+      objectReference: {fileID: 0}
+    - target: {fileID: 890955073155236275, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 45741760935928656, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.99999815
+      objectReference: {fileID: 0}
+    - target: {fileID: 45741760935928656, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 45741760935928656, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.0000003403739
+      objectReference: {fileID: 0}
+    - target: {fileID: 6566423421037759898, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d83a8ec6a42ddd64498211299ba96eb1, type: 3}

@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: dfedcd7a1c19bc94aa9ddcdebe0ccc2b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cage
+    100002: cageHansel
+    100004: cakeChocolate
+    100006: cakeChocolateStrawberry
+    100008: cakePink
+    100010: CakePinkStrawberry
+    100012: Camera
+    100014: cooking pot
+    100016: Door
+    100018: DoorCage
+    100020: Oven
+    100022: Pan
+    100024: pieceCakeChocolate
+    100026: pieceCakePink
+    100028: pieceCakeStrawberry
+    100030: piezeCholateStrawberry
+    100032: //RootNode
+    100034: Sun
+    400000: cage
+    400002: cageHansel
+    400004: cakeChocolate
+    400006: cakeChocolateStrawberry
+    400008: cakePink
+    400010: CakePinkStrawberry
+    400012: Camera
+    400014: cooking pot
+    400016: Door
+    400018: DoorCage
+    400020: Oven
+    400022: Pan
+    400024: pieceCakeChocolate
+    400026: pieceCakePink
+    400028: pieceCakeStrawberry
+    400030: piezeCholateStrawberry
+    400032: //RootNode
+    400034: Sun
+    2000000: Camera
+    2100000: Material.001
+    2300000: cage
+    2300002: cageHansel
+    2300004: cakeChocolate
+    2300006: cakeChocolateStrawberry
+    2300008: cakePink
+    2300010: CakePinkStrawberry
+    2300012: cooking pot
+    2300014: Door
+    2300016: DoorCage
+    2300018: Oven
+    2300020: Pan
+    2300022: pieceCakeChocolate
+    2300024: pieceCakePink
+    2300026: pieceCakeStrawberry
+    2300028: piezeCholateStrawberry
+    3300000: cage
+    3300002: cageHansel
+    3300004: cakeChocolate
+    3300006: cakeChocolateStrawberry
+    3300008: cakePink
+    3300010: CakePinkStrawberry
+    3300012: cooking pot
+    3300014: Door
+    3300016: DoorCage
+    3300018: Oven
+    3300020: Pan
+    3300022: pieceCakeChocolate
+    3300024: pieceCakePink
+    3300026: pieceCakeStrawberry
+    3300028: piezeCholateStrawberry
+    4300000: cage
+    4300002: Pan
+    4300004: cooking pot
+    4300006: CakePinkStrawberry
+    4300008: pieceCakeStrawberry
+    4300010: Oven
+    4300012: Door
+    4300014: cakeChocolateStrawberry
+    4300016: piezeCholateStrawberry
+    4300018: pieceCakePink
+    4300020: pieceCakeChocolate
+    4300022: cakeChocolate
+    4300024: cakePink
+    4300026: cageHansel
+    4300028: DoorCage
+    10800000: Sun
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: d572de47adcc2bb4c91c0a68852d7b45, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 72
+    secondaryUVAreaDistortion: 67
+    secondaryUVHardAngle: 87
+    secondaryUVPackMargin: 60
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

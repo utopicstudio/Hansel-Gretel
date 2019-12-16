@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5926918179695065524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6810393799237080391, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_Name
+      value: TextWeb_Q_PII
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.337036
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -174.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.004956206
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999877
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -720.568
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670733635279673683, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970142433498271940, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000030517578
+      objectReference: {fileID: 0}
+    - target: {fileID: 2970142433498271940, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285018908352635106, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285018908352635106, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285018908352635106, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8285018908352635106, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 6447106739815988338}
+    - target: {fileID: 8285018908352635106, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 788577525627432005}
+    - target: {fileID: 8285018908352635106, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 7674208548453056616}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_text
+      value: "Hansel y Gretel viv\xEDan muy cerca de un espeso bosque con su padre
+        que era un pobre le\xF1ador y su cruel madrastra. Viv\xEDan con much\xEDsima
+        escasez y ya no les alcanzaba para que los cuatro pudieran comer.\r\n\r\nUna
+        noche, creyendo que los ni\xF1os estaban dormidos, la cruel madrastra dijo
+        al le\xF1ador: No hay bastante comida para todos. Ma\xF1ana llevaremos a los
+        ni\xF1os a la parte m\xE1s espesa del bosque y los dejaremos all\xED. Ellos
+        no podr\xE1n encontrar el camino a casa y as\xED nos desprenderemos de esa
+        carga. Al principio, el padre se opuso rotundamente a la cruel idea de la
+        malvada mujer.\r\n\r\n<size=26>\u2013\xBFC\xF3mo vamos a abandonar a mis hijos
+        a su suerte?, \xA1quiz\xE1s sean atacados por los animales del bosque! -<size=18>grit\xF3
+        enojado.\r\n\r\n\u2013De cualquier manera, as\xED moriremos todos de hambre
+        \u2013dijo la madrastra y no descans\xF3 hasta convencer al d\xE9bil hombre
+        de llevar adelante el mal\xE9volo plan que se hab\xEDa trazado. \r\n\r\nSin
+        embargo, los ni\xF1os escucharon toda la conversaci\xF3n. Gretel lloraba amargamente
+        y Hansel la consolaba: \u2013No llores, querida hermanita \u2013dec\xEDa \xE9l\u2013,
+        \xA1Yo tengo una idea para encontrar el camino de regreso a casa!\r\n\nA la
+        ma\xF1ana siguiente, cuando salieron hacia el bosque, la madrastra les dio
+        a cada uno de los ni\xF1os un pedazo de pan.\r\n\u2013No deben comer este
+        pan antes del almuerzo \u2013les dijo\u2013. Eso es todo lo que tendr\xE1n
+        para la tarde.\r\n\r\nEl dominado padre y la madrastra los acompa\xF1aron
+        a adentrarse en el bosque. Cuando penetraron en la espesura, los ni\xF1os
+        se quedaron atr\xE1s. Hansel, haciendo migas de su pan, las fue dejando caer
+        con disimulo para tener se\xF1ales que les permitieran luego regresar a casa.\r\n\r\nLos
+        padres los llevaron muy adentro del bosque y la madrastra les orden\xF3: <br>\u2014Qu\xE9dense
+        aqu\xED hasta que vengamos a buscarlos. <br>Hansel y Gretel hicieron lo que
+        sus padres hab\xEDan ordenado. Pero cuando se acerc\xF3 la noche, trataron
+        de encontrar el camino de regreso. \r\n\r\nDesgraciadamente, los p\xE1jaros
+        se hab\xEDan comido las migas que marcaban el camino. Toda la noche, anduvieron
+        por el bosque con mucho temor observando el brillo de los ojos de las fieras
+        y a cada paso se perd\xEDan m\xE1s en aquella espesura.\r\n\r\nAl amanecer,
+        casi muertos de miedo y de hambre, los ni\xF1os vieron un p\xE1jaro blanco
+        que volaba frente a ellos.  El p\xE1jaro les aleteaba en se\xF1al amistosa
+        para animarlos a seguir adelante. Siguiendo el vuelo de aquel p\xE1jaro encontraron
+        una extra\xF1a casita. \r\n\r\nEstaba construida de panes, dulces, bombones
+        y otras golosinas muy sabrosas.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 2417
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 424
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 409
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184528266330539533, guid: d83a8ec6a42ddd64498211299ba96eb1,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 76
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6938808712903334414, guid: d83a8ec6a42ddd64498211299ba96eb1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d83a8ec6a42ddd64498211299ba96eb1, type: 3}
+--- !u!1 &788577525627432005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6390946222142019057, guid: d83a8ec6a42ddd64498211299ba96eb1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5926918179695065524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6447106739815988338 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 808428866237711814, guid: d83a8ec6a42ddd64498211299ba96eb1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5926918179695065524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788577525627432005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7674208548453056616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4089515497287645660, guid: d83a8ec6a42ddd64498211299ba96eb1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5926918179695065524}
+  m_PrefabAsset: {fileID: 0}

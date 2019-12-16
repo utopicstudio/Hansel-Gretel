@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4d22072c7fe0e420ebf2195d522b3c6e
+timeCreated: 1461074828
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest_J
+    100002: //RootNode
+    100004: Father_Mesh
+    100006: Head_Jnt_01
+    100008: Joints
+    100010: Left_Ankle_Jnt
+    100012: Left_Ball_Jnt
+    100014: Left_Clavicle_Jnt
+    100016: Left_Elbow_Jnt
+    100018: Left_Fingers_02_Jnt
+    100020: Left_Fingers_Jnt_01
+    100022: Left_Hip_Jnt
+    100024: Left_Knee_Jnt
+    100026: Left_Shoulder_Jnt
+    100028: Left_Thumb_Jnt_01
+    100030: Left_Thumb_Jnt_02
+    100032: Left_Toe_Jnt
+    100034: Left_Wrist_Jnt
+    100036: Neck_Jnt_01
+    100038: Pelvis_Jnt
+    100040: Right_Ankle_Jnt
+    100042: Right_Ball_Jnt
+    100044: Right_Clavicle_Jnt
+    100046: Right_Elbow_Jnt
+    100048: Right_Fingers_02_Jnt
+    100050: Right_Fingers_Jnt_01
+    100052: Right_Hip_Jnt
+    100054: Right_Knee_Jnt
+    100056: Right_Shoulder_Jnt
+    100058: Right_Thumb_Jnt_01
+    100060: Right_Thumb_Jnt_02
+    100062: Right_Toe_Jnt
+    100064: Right_Wrist_Jnt
+    100066: Root_Jnt
+    100068: Spine_01_J
+    100070: Spine_02_J
+    400000: Chest_J
+    400002: //RootNode
+    400004: Father_Mesh
+    400006: Head_Jnt_01
+    400008: Joints
+    400010: Left_Ankle_Jnt
+    400012: Left_Ball_Jnt
+    400014: Left_Clavicle_Jnt
+    400016: Left_Elbow_Jnt
+    400018: Left_Fingers_02_Jnt
+    400020: Left_Fingers_Jnt_01
+    400022: Left_Hip_Jnt
+    400024: Left_Knee_Jnt
+    400026: Left_Shoulder_Jnt
+    400028: Left_Thumb_Jnt_01
+    400030: Left_Thumb_Jnt_02
+    400032: Left_Toe_Jnt
+    400034: Left_Wrist_Jnt
+    400036: Neck_Jnt_01
+    400038: Pelvis_Jnt
+    400040: Right_Ankle_Jnt
+    400042: Right_Ball_Jnt
+    400044: Right_Clavicle_Jnt
+    400046: Right_Elbow_Jnt
+    400048: Right_Fingers_02_Jnt
+    400050: Right_Fingers_Jnt_01
+    400052: Right_Hip_Jnt
+    400054: Right_Knee_Jnt
+    400056: Right_Shoulder_Jnt
+    400058: Right_Thumb_Jnt_01
+    400060: Right_Thumb_Jnt_02
+    400062: Right_Toe_Jnt
+    400064: Right_Wrist_Jnt
+    400066: Root_Jnt
+    400068: Spine_01_J
+    400070: Spine_02_J
+    4300000: Father_Mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Father_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Root_Jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Hip_Jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Hip_Jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Knee_Jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Knee_Jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Ankle_Jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Ankle_Jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_01_J
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_02_J
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck_Jnt_01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_Jnt_01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Clavicle_Jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Clavicle_Jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Shoulder_Jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Shoulder_Jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Elbow_Jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Elbow_Jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Wrist_Jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Wrist_Jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Ball_Jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Ball_Jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Thumb_Jnt_01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Thumb_Jnt_02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Fingers_Jnt_01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Fingers_02_Jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Thumb_Jnt_01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Thumb_Jnt_02
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Fingers_Jnt_01
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Fingers_02_Jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Father(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Father_Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Joints
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root_Jnt
+      position: {x: 0.0000009565733, y: 0.06971614, z: -0.0028399501}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_01_J
+      position: {x: -0.00000092353565, y: 0.0075359265, z: 0.0008145168}
+      rotation: {x: 0.49962473, y: -0.5003863, z: -0.4996134, w: 0.500375}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_02_J
+      position: {x: -0.009853774, y: 4.9960034e-18, z: -3.9522767e-19}
+      rotation: {x: -2.2625994e-16, y: 0.00000065198844, z: 0.028765175, w: 0.9995862}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest_J
+      position: {x: -0.008294559, y: -1.2767564e-17, z: 2.879912e-22}
+      rotation: {x: 5.967701e-17, y: 0.00000022940145, z: 0.009451626, w: 0.99995536}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Clavicle_Jnt
+      position: {x: -0.01396435, y: -0.0004220589, z: -0.0072000762}
+      rotation: {x: -0.4677109, y: -0.5303162, z: 0.5651461, w: -0.4249955}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Shoulder_Jnt
+      position: {x: 0.010810917, y: -0.00019161098, z: 1.9578204e-11}
+      rotation: {x: 0.00081599166, y: -0.006892986, z: 0.10335987, w: 0.9946198}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Elbow_Jnt
+      position: {x: 0.017500814, y: -0.000032738226, z: 0.0011752609}
+      rotation: {x: 1.0909852e-11, y: 0.04888345, z: -0.0000009575268, w: 0.9988045}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Wrist_Jnt
+      position: {x: 0.024774052, y: -0.00047896718, z: 0.00016473986}
+      rotation: {x: 0.00010424444, y: 0.0037207915, z: -0.0024610455, w: 0.99999005}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Fingers_Jnt_01
+      position: {x: 0.0065261214, y: 0.0000000073950295, z: -1.853735e-10}
+      rotation: {x: -0.000013015055, y: -0.010390093, z: 0.00000013977272, w: 0.99994606}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Fingers_02_Jnt
+      position: {x: 0.003955964, y: 0.0000000023060944, z: -0.000000004302185}
+      rotation: {x: 2.1848713e-16, y: -6.5070605e-18, z: -3.6796432e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Thumb_Jnt_01
+      position: {x: 0.0032122775, y: -0.00047299633, z: -0.0037370669}
+      rotation: {x: 0.65765, y: 0.30871868, z: -0.2828547, w: 0.6262447}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Thumb_Jnt_02
+      position: {x: 0.00337996, y: 0.00017006954, z: -0.00000022656364}
+      rotation: {x: 0.000000010536694, y: 1.9366116e-11, z: 0.001837971, w: 0.99999833}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Clavicle_Jnt
+      position: {x: -0.013964147, y: -0.0004217525, z: 0.007200095}
+      rotation: {x: -0.53032887, y: 0.46772057, z: 0.4249849, w: 0.5651341}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Shoulder_Jnt
+      position: {x: -0.010811014, y: 0.00019193937, z: -1.7022532e-12}
+      rotation: {x: 0.0008162076, y: -0.006893059, z: 0.10336098, w: 0.9946197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Elbow_Jnt
+      position: {x: -0.017500784, y: 0.000032855878, z: -0.0011752639}
+      rotation: {x: 0.0000000024499718, y: 0.04888345, z: -0.0000009577991, w: 0.9988045}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Wrist_Jnt
+      position: {x: -0.024774054, y: 0.0004784308, z: -0.00016473632}
+      rotation: {x: 0.000104242, y: 0.0037207915, z: -0.0024610455, w: 0.99999005}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Fingers_Jnt_01
+      position: {x: -0.006526132, y: -5.8477664e-13, z: 3.8699266e-13}
+      rotation: {x: -0.000013009036, y: -0.010390093, z: 0.00000013975493, w: 0.99994606}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Fingers_02_Jnt
+      position: {x: -0.0039560166, y: 5.3290704e-17, z: -7.771561e-18}
+      rotation: {x: -1.01485135e-17, y: -4.732373e-18, z: -2.1900422e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Thumb_Jnt_01
+      position: {x: -0.0032123139, y: 0.00047306667, z: 0.0037370615}
+      rotation: {x: 0.65765, y: 0.30871868, z: -0.2828547, w: 0.6262447}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Thumb_Jnt_02
+      position: {x: -0.003379956, y: -0.0001700778, z: 2.9822846e-11}
+      rotation: {x: 0.000000003886358, y: 0.000000004599729, z: 0.0018379712, w: 0.99999833}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_Jnt_01
+      position: {x: -0.023176894, y: -2.0539126e-17, z: 4.2351647e-22}
+      rotation: {x: 0.0000027924202, y: -0.00000066508437, z: 0.9927802, w: 0.119947955}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_Jnt_01
+      position: {x: 0.0068779383, y: -0.00000015550127, z: -0.00000007626961}
+      rotation: {x: -0.01692052, y: 0.7069125, z: -0.7068963, w: 0.016913064}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Pelvis_Jnt
+      position: {x: 6.776263e-22, y: 0, z: 1.6653345e-18}
+      rotation: {x: 0.019243263, y: 0.019244118, z: -0.7068292, w: 0.70686066}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Hip_Jnt
+      position: {x: 0.008612979, y: 0.0080846045, z: 0.0023430174}
+      rotation: {x: 0.9994829, y: 0.030278342, z: -0.010584198, w: 0.0022826209}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Knee_Jnt
+      position: {x: 0.026194748, y: -0.00010367731, z: -0.00153103}
+      rotation: {x: -0.00038374786, y: -0.06016782, z: -0.0028165998, w: 0.99818426}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Ankle_Jnt
+      position: {x: 0.028337654, y: -0.000037733287, z: 0.0029246781}
+      rotation: {x: 0.00074550096, y: 0.6505852, z: 0.04215572, w: 0.758262}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Ball_Jnt
+      position: {x: 0.017177235, y: 0.000020888992, z: 0.0005396753}
+      rotation: {x: 0.006006121, y: 0.13592452, z: -0.001189751, w: 0.9907003}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Right_Toe_Jnt
+      position: {x: 0.0060515045, y: 0.00000004291277, z: 0.000000006511836}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Hip_Jnt
+      position: {x: 0.008612269, y: -0.00808545, z: 0.0023429787}
+      rotation: {x: 0.010419528, y: -0.0068983766, z: 0.99944806, w: 0.030780047}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Knee_Jnt
+      position: {x: -0.026194777, y: 0.000103671606, z: 0.0015310323}
+      rotation: {x: -0.00038374786, y: -0.06016782, z: -0.0028165998, w: 0.99818426}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Ankle_Jnt
+      position: {x: -0.02833762, y: 0.000037691698, z: -0.0029246851}
+      rotation: {x: 0.004412585, y: 0.65038633, z: 0.045014486, w: 0.7582558}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Ball_Jnt
+      position: {x: -0.01717723, y: -0.000020879092, z: -0.00053967757}
+      rotation: {x: 0.005932192, y: 0.13592434, z: -0.0012008197, w: 0.9907007}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Left_Toe_Jnt
+      position: {x: -0.0060514747, y: -0.000000007813362, z: -0.000000004155001}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

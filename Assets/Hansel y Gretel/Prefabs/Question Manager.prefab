@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &152180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 432868}
+  - 114: {fileID: 11454364}
+  m_Layer: 0
+  m_Name: Question Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432868
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.12695, y: 0.35807502, z: -220.0328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11454364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f060cff2ed443cd9f59360b5d18afd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxChancesPerQuestion: 3
+  realAnswers: 01000000030000000300000002000000
+  points: 03000000030000000300000003000000
+  playerAnswers: 
+  tries: 
+  questionTexts1:
+  - "Hansel y Gretel viv\xEDan con su padre, un pobre le\xF1ador, y su cruel madrastra,
+    muy cerca de un espeso bosque. Viv\xEDan con much\xEDsima escasez, y como ya no
+    les alcanzaba para poder comer los cuatro, deber\xEDan plantearse el problema
+    y tratar de darle una buena soluci\xF3n."
+  - "Una noche, creyendo que los ni\xF1os estaban dormidos, la cruel madrastra dijo
+    al le\xF1ador: -No hay bastante comida para todos: ma\xF1ana llevaremos a los
+    ni\xF1os a la parte m\xE1s espesa del bosque y los dejaremos all\xED. Ellos no
+    podr\xE1n encontrar el camino a casa y as\xED nos desprenderemos de esa carga."
+  - "Al principio, el padre se opuso rotundamente a tener en cuenta la cruel idea
+    de la malvada mujer. -\xBFC\xF3mo vamos a abandonar a mis hijos a la suerte de
+    Dios?, quiz\xE1s sean atacados por los animales del bosque -grit\xF3 enojado.
+    -De cualquier manera, as\xED moriremos todos de hambre -dijo la madrastra y no
+    descans\xF3 hasta convencer al d\xE9bil hombre de llevar adelante el mal\xE9volo
+    plan que se hab\xEDa trazado"
+  - "A la ma\xF1ana siguiente, cuando salieron para el bosque, la madrastra les dio
+    a cada uno de los ni\xF1os un pedazo de pan. -No deben comer este pan antes del
+    almuerzo -les dijo-. Eso es todo lo que tendr\xE1n para el d\xEDa. "
+  questionTexts2:
+  - "\xBFD\xF3nde viven Hansel y Gretel? Selecciona la casa correcta"
+  - "\xBFCu\xE1ndo se produce la conversaci\xF3n entre la madrastra y el lenador? "
+  - "\xBFPor qu\xE9 la madrastra quiere llevar a los ni\xF1os al bosque?  "
+  - Selecciona el alimento que la madre le entrega a Hansel.
+  optionTexts:
+  - 
+  - 
+  - "Porque as\xED podr\xE1n buscar comida/Porque los ni\xF1os tienen que encontrar
+    la carga/Porque as\xED ya no tendr\xE1n que alimentarlos"
+  - 
+  numCorrect: 0
+  numTotal: 4
+  type1Percentage: 1
+  type2Percentage: 1
+  type3Percentage: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 152180}
+  m_IsPrefabParent: 1

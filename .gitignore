@@ -1,0 +1,54 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+*.stackdump
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+*.csproj
+*.unityproj
+*.sln*
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pidb.meta
+*.booproj
+*.svd
+
+
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+
+
+# ============ #
+# Unity Builds #
+# ============ #
+*.apk
+*.unitypackage
+#### Unity3D Generated File On Crash Reports:
+sysinfo.txt
+
+
+# ============ #
+# Sublime Text #
+# ============ #
+*.sublime-workspace
+Assets/Animations/Human.controller
