@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: ab3eefbfedb96e0498808fa65ec63218, type: 2}
+  m_NavMeshData: {fileID: 0}
 --- !u!1 &5862697
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,7 +1315,7 @@ PrefabInstance:
     - target: {fileID: 185000885678985870, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -177.68
+      value: -179.415
       objectReference: {fileID: 0}
     - target: {fileID: 185000885678985870, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
@@ -1340,7 +1340,7 @@ PrefabInstance:
     - target: {fileID: 185000885678985870, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 185000885678985870, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
@@ -1365,7 +1365,7 @@ PrefabInstance:
     - target: {fileID: 185000885678985870, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.03
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 185000885678985870, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
@@ -1472,6 +1472,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 74f5ec0e19a8c1742b0f3f23c6007e73,
         type: 3}
+    - target: {fileID: 185000886168487066, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 185000886168487066, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 185000886042902442, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 185000886042902442, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75839f5b9d9c628419484485082732c2, type: 3}
 --- !u!1 &86076282 stripped
@@ -15287,7 +15307,7 @@ PrefabInstance:
     - target: {fileID: 7196240903395144720, guid: 4b8497036941a254c9b418668f247393,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7196240903395144720, guid: 4b8497036941a254c9b418668f247393,
         type: 3}
@@ -31006,7 +31026,7 @@ PrefabInstance:
     - target: {fileID: 7196240903395144720, guid: 4b8497036941a254c9b418668f247393,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7196240903395144720, guid: 4b8497036941a254c9b418668f247393,
         type: 3}
@@ -68663,7 +68683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1877826142, guid: db0afad72db232a4696a975356c7c131, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.04
+      value: 1.17
       objectReference: {fileID: 0}
     - target: {fileID: 1877826142, guid: db0afad72db232a4696a975356c7c131, type: 3}
       propertyPath: m_LocalPosition.z

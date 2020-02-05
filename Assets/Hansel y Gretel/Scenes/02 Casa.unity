@@ -2604,7 +2604,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1230455176}
+      objectReference: {fileID: 387413357}
     - target: {fileID: 3045624873366537263, guid: 892308c5f839a2d4f9b70a4dea21c767,
         type: 3}
       propertyPath: onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -17308,6 +17308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 387413356}
   - component: {fileID: 387413355}
+  - component: {fileID: 387413357}
   m_Layer: 0
   m_Name: Load Scene
   m_TagString: Untagged
@@ -17343,6 +17344,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &387413357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387413354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39026b6cf8d6ab1479e743a584a768bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  opaqueColor: {r: 0, g: 0, b: 0, a: 1}
+  transparentColor: {r: 0, g: 0, b: 0, a: 0}
+  fadeinTime: 1
+  fadeoutTime: 1
+  ignoreTimeScale: 0
+  distanceFromCamera: 0.5
+  orderInLayer: 100
+  fadeInAtStart: 1
 --- !u!1 &397919761
 GameObject:
   m_ObjectHideFlags: 0

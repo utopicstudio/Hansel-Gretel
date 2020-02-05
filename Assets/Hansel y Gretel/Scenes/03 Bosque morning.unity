@@ -3727,7 +3727,7 @@ PrefabInstance:
     - target: {fileID: 1749047484560564962, guid: 16efd0165e38ca245be92bb9eefe65be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 1749047484560564962, guid: 16efd0165e38ca245be92bb9eefe65be,
         type: 3}
@@ -7262,6 +7262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834027655}
   - component: {fileID: 834027654}
+  - component: {fileID: 834027656}
   m_Layer: 0
   m_Name: Load Scene
   m_TagString: Untagged
@@ -7297,6 +7298,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834027656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834027653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39026b6cf8d6ab1479e743a584a768bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  opaqueColor: {r: 0, g: 0, b: 0, a: 1}
+  transparentColor: {r: 0, g: 0, b: 0, a: 0}
+  fadeinTime: 1
+  fadeoutTime: 1
+  ignoreTimeScale: 0
+  distanceFromCamera: 0.5
+  orderInLayer: 100
+  fadeInAtStart: 1
 --- !u!1001 &837777784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26523,18 +26545,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96f1055f3c216ed4b8d21601696f8d5c, type: 3}
---- !u!114 &1404289146 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8235538163774267477, guid: 96f1055f3c216ed4b8d21601696f8d5c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1404289145}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1412644881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39587,7 +39597,7 @@ Transform:
   - {fileID: 1718662629630913937}
   - {fileID: 1718662629522805374}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1718662629114199864
 Transform:
@@ -40690,7 +40700,7 @@ MonoBehaviour:
   normalAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1404289146}
+      - m_Target: {fileID: 834027656}
         m_MethodName: FadeOut
         m_Mode: 1
         m_Arguments:
