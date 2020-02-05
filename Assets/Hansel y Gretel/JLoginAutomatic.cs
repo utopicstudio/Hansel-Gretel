@@ -14,8 +14,8 @@ namespace J
         /// </summary>
         public UnityEvent OnLogged;
 
-        public string user;
-        public string pswd;
+        public string user = "alumno1@gmail.com";
+        public string pswd = "alumno1";
         public JRemoteSession.SessionType userType;
         public bool onStart = true;
         

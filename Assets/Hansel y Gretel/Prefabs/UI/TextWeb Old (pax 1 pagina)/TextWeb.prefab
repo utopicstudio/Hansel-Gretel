@@ -13,6 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DefaultPlaySoundVolume: 1
+--- !u!114 &691617934437105602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375492289495153490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aee672c7b0743724ea7d0d722d5e6aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &375492288920828234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82,11 +99,6 @@ PrefabInstance:
       propertyPath: OnHiddenEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7691468532085301881, guid: df6f11c524969b1478cc442b4c1cb103,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 677863470989406836, guid: df6f11c524969b1478cc442b4c1cb103,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -122,6 +134,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: cdc926458fb5fe14da211bc53694e352, type: 3}
+    - target: {fileID: 7691468532085301881, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 876032427670791649, guid: df6f11c524969b1478cc442b4c1cb103,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -170,6 +187,36 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2438876325035141096, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: OnPointerStay.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438876325035141096, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: OnPointerStay.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ScrollUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438876325035141096, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: OnPointerStay.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091002591240986223, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: OnPointerStay.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091002591240986223, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: OnPointerStay.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ScrollUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091002591240986223, guid: df6f11c524969b1478cc442b4c1cb103,
+        type: 3}
+      propertyPath: OnPointerStay.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 255455577, guid: df6f11c524969b1478cc442b4c1cb103, type: 3}
       propertyPath: m_havePropertiesChanged
       value: 0
@@ -195,6 +242,12 @@ PrefabInstance:
 --- !u!1 &9125769746715400488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8904525779425845346, guid: df6f11c524969b1478cc442b4c1cb103,
+    type: 3}
+  m_PrefabInstance: {fileID: 375492288920828234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &375492289495153490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 575111704, guid: df6f11c524969b1478cc442b4c1cb103,
     type: 3}
   m_PrefabInstance: {fileID: 375492288920828234}
   m_PrefabAsset: {fileID: 0}
