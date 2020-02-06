@@ -29,4 +29,49 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Hansel y Gretel/Scenes/07 Lago.unity
     guid: c77ca50e95788364391e3480eba8bf31
+  - enabled: 1
+    path: Assets/Scenes/Scene00_Login.unity
+    guid: a136fc02f2a4ee04b8afefa4f2f86904
+  - enabled: 1
+    path: Assets/Scenes/Scene01_Introduccion.unity
+    guid: 05fcc85b9e320694bab2437065c93a66
+  - enabled: 1
+    path: Assets/Scenes/Scene02_Bosque.unity
+    guid: 13db787a9d0161c45a95fe4a8d3b07ee
+  - enabled: 1
+    path: Assets/Scenes/Scene03_Exterior_castillo_rey.unity
+    guid: f7d3dfa2cd818bf40812541340276d7c
+  - enabled: 1
+    path: Assets/Scenes/Scene04_SalonTronoCastillo.unity
+    guid: 1c1c7ed169c303945b6475e7539cf868
+  - enabled: 1
+    path: Assets/Scenes/Scene05_SalidaCastillo.unity
+    guid: 77a5ea6e1b555e34bb496021f0831bca
+  - enabled: 1
+    path: Assets/Scenes/Scene06_Molino.unity
+    guid: fb2203dc53fa8f04caa17b70bc5137c1
+  - enabled: 1
+    path: Assets/Scenes/Scene07_lago.unity
+    guid: 787629c4fa704964aa5f913ae28afb9e
+  - enabled: 1
+    path: Assets/Scenes/Scene08_CastleWizard.unity
+    guid: ee1a14f1d341e7f45913b0dc34111648
+  - enabled: 1
+    path: Assets/Scenes/Scene09_Int_Palacio_Mago.unity
+    guid: 57dfe59357ac39a458fe4ca13dc16a51
+  - enabled: 1
+    path: Assets/Scenes/Scene10_CastleWizard_2.unity
+    guid: 7d7fe82b99339cf4d8ed78b44194e397
+  - enabled: 1
+    path: Assets/Scenes/Scene11_CastilloFinal.unity
+    guid: 2c3f1134204f1704f97509571ca58591
+  - enabled: 1
+    path: Assets/Scenes/Scene12_Creditos_Finales.unity
+    guid: 3b3e78b1441f3da4a92563f634621ca0
+  - enabled: 1
+    path: Assets/Scenes/Scene_BuscarOro.unity
+    guid: 370a7e3efef6e454b93e6e48f4e377fe
+  - enabled: 1
+    path: Assets/Scenes/Scene_ElegirBotas.unity
+    guid: 4b48a15794e77754b90b04f17bd76e0e
   m_configObjects: {}

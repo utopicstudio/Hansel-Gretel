@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: b4055b17e027710499452648163f8fb1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: capa.L
+    100004: capa.L_end
+    100006: capa.R
+    100008: capa.R_end
+    100010: Def-antebrazo.L
+    100012: Def-antebrazo.R
+    100014: Def-brazo.L
+    100016: Def-brazo.R
+    100018: Def-cabeza
+    100020: Def-canilla.L
+    100022: Def-canilla.R
+    100024: Def-dedo.L
+    100026: Def-dedo.R
+    100028: Def-dedo1.L
+    100030: Def-dedo1.L_end
+    100032: Def-dedo1.R
+    100034: Def-dedo1.R_end
+    100036: Def-gorro
+    100038: Def-mano.L
+    100040: Def-mano.R
+    100042: Def-pecho
+    100044: Def-pelvis
+    100046: Def-pelvis.001
+    100048: Def-pelvis.002
+    100050: Def-pelvis.003
+    100052: Def-pelvis.003_end
+    100054: Def-pie.L
+    100056: Def-pie.L_end
+    100058: Def-pie.R
+    100060: Def-pie.R_end
+    100062: Def-pierna.L
+    100064: Def-pierna.R
+    100066: Def-pluma
+    100068: Def-pluma1
+    100070: Def-pluma1_end
+    100072: Def-pulgar.L
+    100074: Def-pulgar.R
+    100076: Def-pulgar1.L
+    100078: Def-pulgar1.L_end
+    100080: Def-pulgar1.R
+    100082: Def-pulgar1.R_end
+    100084: Def-tela
+    100086: Def-tela1
+    100088: Def-tela1_end
+    100090: Def-tela_end
+    100092: //RootNode
+    100094: obj-tela1
+    100096: objtela2
+    400000: Bone
+    400002: capa.L
+    400004: capa.L_end
+    400006: capa.R
+    400008: capa.R_end
+    400010: Def-antebrazo.L
+    400012: Def-antebrazo.R
+    400014: Def-brazo.L
+    400016: Def-brazo.R
+    400018: Def-cabeza
+    400020: Def-canilla.L
+    400022: Def-canilla.R
+    400024: Def-dedo.L
+    400026: Def-dedo.R
+    400028: Def-dedo1.L
+    400030: Def-dedo1.L_end
+    400032: Def-dedo1.R
+    400034: Def-dedo1.R_end
+    400036: Def-gorro
+    400038: Def-mano.L
+    400040: Def-mano.R
+    400042: Def-pecho
+    400044: Def-pelvis
+    400046: Def-pelvis.001
+    400048: Def-pelvis.002
+    400050: Def-pelvis.003
+    400052: Def-pelvis.003_end
+    400054: Def-pie.L
+    400056: Def-pie.L_end
+    400058: Def-pie.R
+    400060: Def-pie.R_end
+    400062: Def-pierna.L
+    400064: Def-pierna.R
+    400066: Def-pluma
+    400068: Def-pluma1
+    400070: Def-pluma1_end
+    400072: Def-pulgar.L
+    400074: Def-pulgar.R
+    400076: Def-pulgar1.L
+    400078: Def-pulgar1.L_end
+    400080: Def-pulgar1.R
+    400082: Def-pulgar1.R_end
+    400084: Def-tela
+    400086: Def-tela1
+    400088: Def-tela1_end
+    400090: Def-tela_end
+    400092: //RootNode
+    400094: obj-tela1
+    400096: objtela2
+    7400000: Rig_basico|Cry
+    7400002: Rig_basico|cubrirse
+    7400004: Rig_basico|Gato_con_botasAction
+    7400006: Rig_basico|Hide
+    7400008: Rig_basico|Hola_sinropa
+    7400010: 'Rig_basico|Idle '
+    7400012: Rig_basico|Idle saco
+    7400014: Rig_basico|kill mouse
+    7400016: Rig_basico|Llamar carroza
+    7400018: Rig_basico|monoAction
+    7400020: Rig_basico|reverencia
+    7400022: Rig_basico|reverencia final
+    7400024: Rig_basico|reverencia final.001
+    7400026: Rig_basico|Rig_sinropaAction
+    7400028: Rig_basico|RopaAction
+    7400030: Rig_basico|Run_sinropaa
+    7400032: Rig_basico|saco abajo
+    7400034: Rig_basico|T
+    7400036: Rig_basico|walk
+    7400038: Rig_basico|walk_saco
+    7400040: Hide
+    7400042: 'Idle '
+    7400044: Idle saco
+    7400046: kill mouse
+    7400048: Llamar carroza
+    7400050: reverencia
+    7400052: reverencia final
+    7400054: saco abajo
+    7400056: walk
+    7400058: walk_saco
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

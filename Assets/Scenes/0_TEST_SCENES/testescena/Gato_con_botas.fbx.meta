@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 26f63f7c7e3148844b3b984ce9743e93
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder.006
+    100002: Cylinder.007
+    100004: Def_cabeza
+    100006: Def_cloth
+    100008: Def_cloth.001
+    100010: Def_cloth.002
+    100012: Def_cloth.003
+    100014: Def_cloth.tela
+    100016: Def_columna
+    100018: Def_columna.001
+    100020: Def_Pelvis
+    100022: Def_pie.L
+    100024: Def_pie.R
+    100026: Def_pierna.L
+    100028: Def_pierna.R
+    100030: //RootNode
+    100032: Gato_con_botas
+    100034: Pelvis.003
+    100036: Pelvis.004
+    100038: Pelvis.005
+    100040: Pelvis.006
+    100042: Pelvis.007
+    100044: Plane.002
+    100046: Root
+    400000: Cylinder.006
+    400002: Cylinder.007
+    400004: Def_cabeza
+    400006: Def_cloth
+    400008: Def_cloth.001
+    400010: Def_cloth.002
+    400012: Def_cloth.003
+    400014: Def_cloth.tela
+    400016: Def_columna
+    400018: Def_columna.001
+    400020: Def_Pelvis
+    400022: Def_pie.L
+    400024: Def_pie.R
+    400026: Def_pierna.L
+    400028: Def_pierna.R
+    400030: //RootNode
+    400032: Gato_con_botas
+    400034: Pelvis.003
+    400036: Pelvis.004
+    400038: Pelvis.005
+    400040: Pelvis.006
+    400042: Pelvis.007
+    400044: Plane.002
+    400046: Root
+    2100000: gato_con_Botas_journey_M.001
+    2100002: gato_con_Botas_journey_M.002
+    2100004: cinta.001
+    4300000: Cylinder.007
+    4300002: Cylinder.006
+    4300004: Plane.002
+    7400000: Gato_con_botas|Walk
+    9500000: //RootNode
+    13700000: Cylinder.006
+    13700002: Cylinder.007
+    13700004: Plane.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cinta.001
+    second: {fileID: 2100000, guid: c6020fa56ba9caf44a80c42e5261b925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gato_con_Botas_journey_M.001
+    second: {fileID: 2100000, guid: 627325964030cb64c874fb2798038aa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gato_con_Botas_journey_M.002
+    second: {fileID: 2100000, guid: df276f41e78c8ee438e17ad5c1753d03, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Gato_con_botas|Walk
+      takeName: Gato_con_botas|Walk
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1715,6 +1715,7 @@ GameObject:
   - component: {fileID: 1877826140}
   - component: {fileID: 1877826138}
   - component: {fileID: 1877826139}
+  - component: {fileID: 8166577749306166195}
   m_Layer: 0
   m_Name: WebVRCameraSet
   m_TagString: Player
@@ -1774,7 +1775,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1877826137}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 3.19
   m_Direction: 1
@@ -1801,6 +1802,24 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!143 &8166577749306166195
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877826137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.93, z: 0}
 --- !u!1 &1920636381
 GameObject:
   m_ObjectHideFlags: 0

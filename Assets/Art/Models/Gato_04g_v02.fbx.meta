@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 04ac45f0f49746143b350e19b2556538
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bota_izq
+    100002: Bota_izq1
+    100004: Ceja_izq
+    100006: Ceja_izq1
+    100008: Cinturon2
+    100010: Gato1
+    100012: //RootNode
+    100014: group8
+    100016: group9
+    100018: Hebilla2
+    100020: Liston2
+    100022: Metal
+    100024: Nariz2
+    100026: Ojo_izq
+    100028: Ojo_izq1
+    100030: pPlane1
+    100032: Sombrero2
+    400000: Bota_izq
+    400002: Bota_izq1
+    400004: Ceja_izq
+    400006: Ceja_izq1
+    400008: Cinturon2
+    400010: Gato1
+    400012: //RootNode
+    400014: group8
+    400016: group9
+    400018: Hebilla2
+    400020: Liston2
+    400022: Metal
+    400024: Nariz2
+    400026: Ojo_izq
+    400028: Ojo_izq1
+    400030: pPlane1
+    400032: Sombrero2
+    2100000: Gato_04
+    2100002: Gato_04_pluma
+    2300000: Bota_izq
+    2300002: Bota_izq1
+    2300004: Ceja_izq
+    2300006: Ceja_izq1
+    2300008: Cinturon2
+    2300010: Gato1
+    2300012: Hebilla2
+    2300014: Liston2
+    2300016: Metal
+    2300018: Nariz2
+    2300020: Ojo_izq
+    2300022: Ojo_izq1
+    2300024: pPlane1
+    2300026: Sombrero2
+    3300000: Bota_izq
+    3300002: Bota_izq1
+    3300004: Ceja_izq
+    3300006: Ceja_izq1
+    3300008: Cinturon2
+    3300010: Gato1
+    3300012: Hebilla2
+    3300014: Liston2
+    3300016: Metal
+    3300018: Nariz2
+    3300020: Ojo_izq
+    3300022: Ojo_izq1
+    3300024: pPlane1
+    3300026: Sombrero2
+    4300000: Metal
+    4300002: Ceja_izq
+    4300004: Bota_izq
+    4300006: Ojo_izq
+    4300008: pPlane1
+    4300010: Ceja_izq1
+    4300012: Bota_izq1
+    4300014: Ojo_izq1
+    4300016: Sombrero2
+    4300018: Gato1
+    4300020: Nariz2
+    4300022: Hebilla2
+    4300024: Cinturon2
+    4300026: Liston2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gato_04
+    second: {fileID: 2100000, guid: 2a42eb1062fc8aa478ea186ba93e03c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gato_04_pluma
+    second: {fileID: 2100000, guid: 3aa2c2e456557ef40b1120150fee5fcb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

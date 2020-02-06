@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 366037446
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scenes/scene00_login
+      Dependencies: {}
+    Info_1:
+      Name: scenes/scene01_introduccion
+      Dependencies: {}
+    Info_2:
+      Name: scenes/scene02_bosque
+      Dependencies: {}
+    Info_3:
+      Name: scenes/scene03_exterior_castillo_rey
+      Dependencies: {}
+    Info_4:
+      Name: scenes/scene04_salontronocastillo
+      Dependencies: {}
+    Info_5:
+      Name: scenes/scene05_salidacastillo
+      Dependencies: {}
+    Info_6:
+      Name: scenes/scene06_molino
+      Dependencies: {}
+    Info_7:
+      Name: scenes/scene07_lago
+      Dependencies: {}
+    Info_8:
+      Name: scenes/scene08_castlewizard
+      Dependencies: {}
+    Info_9:
+      Name: scenes/scene09_int_palacio_mago
+      Dependencies: {}
+    Info_10:
+      Name: scenes/scene10_castlewizard_2
+      Dependencies: {}
+    Info_11:
+      Name: scenes/scene11_castillofinal
+      Dependencies: {}
+    Info_12:
+      Name: scenes/scene12_creditos_finales
+      Dependencies: {}
+    Info_13:
+      Name: scenes/scene_buscaroro
+      Dependencies: {}
+    Info_14:
+      Name: scenes/scene_elegirbotas
+      Dependencies: {}

@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 51279fb0e9effba4da08d816c663b7e8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bone
+    100002: capa.L
+    100004: capa.L_end
+    100006: capa.R
+    100008: capa.R_end
+    100010: Def-antebrazo.L
+    100012: Def-antebrazo.R
+    100014: Def-brazo.L
+    100016: Def-brazo.R
+    100018: Def-cabeza
+    100020: Def-canilla.L
+    100022: Def-canilla.R
+    100024: Def-dedo.L
+    100026: Def-dedo.R
+    100028: Def-dedo1.L
+    100030: Def-dedo1.L_end
+    100032: Def-dedo1.R
+    100034: Def-dedo1.R_end
+    100036: Def-gorro
+    100038: Def-mano.L
+    100040: Def-mano.R
+    100042: Def-pecho
+    100044: Def-pelvis
+    100046: Def-pie.L
+    100048: Def-pie.L_end
+    100050: Def-pie.R
+    100052: Def-pie.R_end
+    100054: Def-pierna.L
+    100056: Def-pierna.R
+    100058: Def-pluma
+    100060: Def-pluma1
+    100062: Def-pluma1_end
+    100064: Def-pulgar.L
+    100066: Def-pulgar.R
+    100068: Def-pulgar1.L
+    100070: Def-pulgar1.L_end
+    100072: Def-pulgar1.R
+    100074: Def-pulgar1.R_end
+    100076: Def-tela
+    100078: Def-tela1
+    100080: Def-tela1_end
+    100082: Def-tela_end
+    100084: Gato_con_botas
+    100086: //RootNode
+    100088: mono
+    100090: obj-tela1
+    100092: objtela2
+    100094: Rig_basico
+    100096: Ropa
+    100098: Bone 1
+    100100: capa.L 1
+    100102: capa.L_end 1
+    100104: capa.R 1
+    100106: capa.R_end 1
+    100108: Circle
+    100110: Circle.001
+    100112: Circle.002
+    100114: Def-antebrazo.L 1
+    100116: Def-antebrazo.R 1
+    100118: Def-brazo.L 1
+    100120: Def-brazo.R 1
+    100122: Def-cabeza 1
+    100124: Def-canilla.L 1
+    100126: Def-canilla.R 1
+    100128: Def-dedo.L 1
+    100130: Def-dedo.R 1
+    100132: Def-dedo1.L 1
+    100134: Def-dedo1.L_end 1
+    100136: Def-dedo1.R 1
+    100138: Def-dedo1.R_end 1
+    100140: Def-gorro 1
+    100142: Def-mano.L 1
+    100144: Def-mano.R 1
+    100146: Def-pecho 1
+    100148: Def-pelvis 1
+    100150: Def-pelvis.001
+    100152: Def-pelvis.001 1
+    100154: Def-pelvis.002
+    100156: Def-pelvis.002 1
+    100158: Def-pelvis.003
+    100160: Def-pelvis.003 1
+    100162: Def-pelvis.003_end
+    100164: Def-pelvis.003_end 1
+    100166: Def-pie.L 1
+    100168: Def-pie.L_end 1
+    100170: Def-pie.R 1
+    100172: Def-pie.R_end 1
+    100174: Def-pierna.L 1
+    100176: Def-pierna.R 1
+    100178: Def-pluma 1
+    100180: Def-pluma1 1
+    100182: Def-pluma1_end 1
+    100184: Def-pulgar.L 1
+    100186: Def-pulgar.R 1
+    100188: Def-pulgar1.L 1
+    100190: Def-pulgar1.L_end 1
+    100192: Def-pulgar1.R 1
+    100194: Def-pulgar1.R_end 1
+    100196: Def-tela 1
+    100198: Def-tela1 1
+    100200: Def-tela1_end 1
+    100202: Def-tela_end 1
+    100204: gato_pelao
+    100206: IK-mano.L
+    100208: IK-mano.R
+    100210: IK-pie.L
+    100212: IK-pie.L 1
+    100214: IK-pie.L_end
+    100216: IK-pie.L_end 1
+    100218: IK-pie.R
+    100220: IK-pie.R 1
+    100222: IK-pie.R_end
+    100224: IK-pie.R_end 1
+    100226: obj-tela1 1
+    100228: objtela2 1
+    100230: pole_mano.L
+    100232: pole_mano.L 1
+    100234: pole_mano.L_end
+    100236: pole_mano.L_end 1
+    100238: pole_mano.R
+    100240: pole_mano.R 1
+    100242: pole_mano.R_end
+    100244: pole_mano.R_end 1
+    100246: pole_pie.L
+    100248: pole_pie.L 1
+    100250: pole_pie.L_end
+    100252: pole_pie.L_end 1
+    100254: pole_pie.R
+    100256: pole_pie.R 1
+    100258: pole_pie.R_end
+    100260: pole_pie.R_end 1
+    100262: Rig_sinropa
+    100264: rotator-mano.L
+    100266: rotator-mano.L_end
+    100268: rotator-mano.R
+    100270: rotator-mano.R_end
+    100272: rotator_cola
+    100274: rotator_cola 1
+    100276: rotator_cola_end
+    100278: rotator_cola_end 1
+    100280: vacia
+    400000: Bone
+    400002: capa.L
+    400004: capa.L_end
+    400006: capa.R
+    400008: capa.R_end
+    400010: Def-antebrazo.L
+    400012: Def-antebrazo.R
+    400014: Def-brazo.L
+    400016: Def-brazo.R
+    400018: Def-cabeza
+    400020: Def-canilla.L
+    400022: Def-canilla.R
+    400024: Def-dedo.L
+    400026: Def-dedo.R
+    400028: Def-dedo1.L
+    400030: Def-dedo1.L_end
+    400032: Def-dedo1.R
+    400034: Def-dedo1.R_end
+    400036: Def-gorro
+    400038: Def-mano.L
+    400040: Def-mano.R
+    400042: Def-pecho
+    400044: Def-pelvis
+    400046: Def-pie.L
+    400048: Def-pie.L_end
+    400050: Def-pie.R
+    400052: Def-pie.R_end
+    400054: Def-pierna.L
+    400056: Def-pierna.R
+    400058: Def-pluma
+    400060: Def-pluma1
+    400062: Def-pluma1_end
+    400064: Def-pulgar.L
+    400066: Def-pulgar.R
+    400068: Def-pulgar1.L
+    400070: Def-pulgar1.L_end
+    400072: Def-pulgar1.R
+    400074: Def-pulgar1.R_end
+    400076: Def-tela
+    400078: Def-tela1
+    400080: Def-tela1_end
+    400082: Def-tela_end
+    400084: Gato_con_botas
+    400086: //RootNode
+    400088: mono
+    400090: obj-tela1
+    400092: objtela2
+    400094: Rig_basico
+    400096: Ropa
+    400098: Bone 1
+    400100: capa.L 1
+    400102: capa.L_end 1
+    400104: capa.R 1
+    400106: capa.R_end 1
+    400108: Circle
+    400110: Circle.001
+    400112: Circle.002
+    400114: Def-antebrazo.L 1
+    400116: Def-antebrazo.R 1
+    400118: Def-brazo.L 1
+    400120: Def-brazo.R 1
+    400122: Def-cabeza 1
+    400124: Def-canilla.L 1
+    400126: Def-canilla.R 1
+    400128: Def-dedo.L 1
+    400130: Def-dedo.R 1
+    400132: Def-dedo1.L 1
+    400134: Def-dedo1.L_end 1
+    400136: Def-dedo1.R 1
+    400138: Def-dedo1.R_end 1
+    400140: Def-gorro 1
+    400142: Def-mano.L 1
+    400144: Def-mano.R 1
+    400146: Def-pecho 1
+    400148: Def-pelvis 1
+    400150: Def-pelvis.001
+    400152: Def-pelvis.001 1
+    400154: Def-pelvis.002
+    400156: Def-pelvis.002 1
+    400158: Def-pelvis.003
+    400160: Def-pelvis.003 1
+    400162: Def-pelvis.003_end
+    400164: Def-pelvis.003_end 1
+    400166: Def-pie.L 1
+    400168: Def-pie.L_end 1
+    400170: Def-pie.R 1
+    400172: Def-pie.R_end 1
+    400174: Def-pierna.L 1
+    400176: Def-pierna.R 1
+    400178: Def-pluma 1
+    400180: Def-pluma1 1
+    400182: Def-pluma1_end 1
+    400184: Def-pulgar.L 1
+    400186: Def-pulgar.R 1
+    400188: Def-pulgar1.L 1
+    400190: Def-pulgar1.L_end 1
+    400192: Def-pulgar1.R 1
+    400194: Def-pulgar1.R_end 1
+    400196: Def-tela 1
+    400198: Def-tela1 1
+    400200: Def-tela1_end 1
+    400202: Def-tela_end 1
+    400204: gato_pelao
+    400206: IK-mano.L
+    400208: IK-mano.R
+    400210: IK-pie.L
+    400212: IK-pie.L 1
+    400214: IK-pie.L_end
+    400216: IK-pie.L_end 1
+    400218: IK-pie.R
+    400220: IK-pie.R 1
+    400222: IK-pie.R_end
+    400224: IK-pie.R_end 1
+    400226: obj-tela1 1
+    400228: objtela2 1
+    400230: pole_mano.L
+    400232: pole_mano.L 1
+    400234: pole_mano.L_end
+    400236: pole_mano.L_end 1
+    400238: pole_mano.R
+    400240: pole_mano.R 1
+    400242: pole_mano.R_end
+    400244: pole_mano.R_end 1
+    400246: pole_pie.L
+    400248: pole_pie.L 1
+    400250: pole_pie.L_end
+    400252: pole_pie.L_end 1
+    400254: pole_pie.R
+    400256: pole_pie.R 1
+    400258: pole_pie.R_end
+    400260: pole_pie.R_end 1
+    400262: Rig_sinropa
+    400264: rotator-mano.L
+    400266: rotator-mano.L_end
+    400268: rotator-mano.R
+    400270: rotator-mano.R_end
+    400272: rotator_cola
+    400274: rotator_cola 1
+    400276: rotator_cola_end
+    400278: rotator_cola_end 1
+    400280: vacia
+    2100000: gato
+    2100002: ropa
+    2100004: No Name
+    2100006: gato_sinropa
+    2300000: Circle
+    2300002: Circle.001
+    2300004: Circle.002
+    3300000: Circle
+    3300002: Circle.001
+    3300004: Circle.002
+    4300000: Gato_con_botas
+    4300002: Ropa
+    4300004: mono
+    4300006: Circle.002
+    4300008: Circle.001
+    4300010: Circle
+    4300012: gato_pelao
+    7400000: Rig_basico|Run
+    7400002: Rig_sinropa|Run
+    7400004: Rig_sinropa|walk
+    7400006: Rwalk
+    9500000: //RootNode
+    13700000: Gato_con_botas
+    13700002: mono
+    13700004: Ropa
+    13700006: gato_pelao
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rig_sinropa|Run
+      takeName: Rig_sinropa|Run
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig_sinropa|walk
+      takeName: Rig_sinropa|walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rwalk
+      takeName: Rig_basico|walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

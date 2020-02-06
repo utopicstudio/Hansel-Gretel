@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: bdb265e60d3b80e448de23c0e4326aae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DEF-f_toe.L
+    100004: DEF-f_toe.L_end
+    100006: DEF-f_toe.R
+    100008: DEF-f_toe.R_end
+    100010: DEF-foot.L
+    100012: DEF-foot.R
+    100014: DEF-forearm.L
+    100016: DEF-forearm.R
+    100018: DEF-hand.L
+    100020: DEF-hand.R
+    100022: DEF-r_toe.L
+    100024: DEF-r_toe.L_end
+    100026: DEF-r_toe.R
+    100028: DEF-r_toe.R_end
+    100030: DEF-shin.L
+    100032: DEF-shin.R
+    100034: DEF-shoulder.L
+    100036: DEF-shoulder.L_end
+    100038: DEF-shoulder.R
+    100040: DEF-shoulder.R_end
+    100042: DEF-spine
+    100044: DEF-spine.002
+    100046: DEF-spine.004
+    100048: DEF-spine.006
+    100050: DEF-spine.007
+    100052: DEF-spine.008
+    100054: DEF-spine.009
+    100056: DEF-spine.010
+    100058: DEF-spine.011
+    100060: DEF-spine.012
+    100062: DEF-spine.013
+    100064: DEF-spine.013_end
+    100066: DEF-spine.014
+    100068: DEF-spine.015
+    100070: DEF-spine.015_end
+    100072: DEF-thigh.L
+    100074: DEF-thigh.R
+    100076: DEF-upper_arm.L
+    100078: DEF-upper_arm.R
+    100080: head
+    100082: MCH-ROT-head
+    100084: MCH-ROT-neck
+    100086: MCH-spine.005
+    100088: MCH-spine.006
+    100090: MCH-spine.007
+    100092: MCH-spine.008
+    100094: MCH-spine.009
+    100096: MCH-spine.010
+    100098: metarig
+    100100: neck
+    100102: Obj_caballo
+    100104: ORG-shoulder.L
+    100106: ORG-shoulder.R
+    100108: ORG-spine.006
+    100110: ORG-spine.009
+    100112: ORG-spine.013
+    100114: ORG-spine.015
+    100116: rig
+    100118: root
+    100120: torso
+    100122: tweak_spine.006
+    100124: tweak_spine.009
+    400000: //RootNode
+    400002: DEF-f_toe.L
+    400004: DEF-f_toe.L_end
+    400006: DEF-f_toe.R
+    400008: DEF-f_toe.R_end
+    400010: DEF-foot.L
+    400012: DEF-foot.R
+    400014: DEF-forearm.L
+    400016: DEF-forearm.R
+    400018: DEF-hand.L
+    400020: DEF-hand.R
+    400022: DEF-r_toe.L
+    400024: DEF-r_toe.L_end
+    400026: DEF-r_toe.R
+    400028: DEF-r_toe.R_end
+    400030: DEF-shin.L
+    400032: DEF-shin.R
+    400034: DEF-shoulder.L
+    400036: DEF-shoulder.L_end
+    400038: DEF-shoulder.R
+    400040: DEF-shoulder.R_end
+    400042: DEF-spine
+    400044: DEF-spine.002
+    400046: DEF-spine.004
+    400048: DEF-spine.006
+    400050: DEF-spine.007
+    400052: DEF-spine.008
+    400054: DEF-spine.009
+    400056: DEF-spine.010
+    400058: DEF-spine.011
+    400060: DEF-spine.012
+    400062: DEF-spine.013
+    400064: DEF-spine.013_end
+    400066: DEF-spine.014
+    400068: DEF-spine.015
+    400070: DEF-spine.015_end
+    400072: DEF-thigh.L
+    400074: DEF-thigh.R
+    400076: DEF-upper_arm.L
+    400078: DEF-upper_arm.R
+    400080: head
+    400082: MCH-ROT-head
+    400084: MCH-ROT-neck
+    400086: MCH-spine.005
+    400088: MCH-spine.006
+    400090: MCH-spine.007
+    400092: MCH-spine.008
+    400094: MCH-spine.009
+    400096: MCH-spine.010
+    400098: metarig
+    400100: neck
+    400102: Obj_caballo
+    400104: ORG-shoulder.L
+    400106: ORG-shoulder.R
+    400108: ORG-spine.006
+    400110: ORG-spine.009
+    400112: ORG-spine.013
+    400114: ORG-spine.015
+    400116: rig
+    400118: root
+    400120: torso
+    400122: tweak_spine.006
+    400124: tweak_spine.009
+    2100000: Mat_caballo
+    4300000: Obj_caballo
+    7400000: rig|walk
+    9500000: //RootNode
+    13700000: Obj_caballo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_caballo
+    second: {fileID: 2100000, guid: 6d797a802c0102749bed19bd60d41207, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: rig|walk
+      takeName: rig|walk
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

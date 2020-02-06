@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 5529dad5efbcd6148a3ea1001a555f97
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DEF-Bone
+    100004: DEF-Bone.001
+    100006: DEF-Bone.001_end
+    100008: DEF-Bone.003
+    100010: DEF-Bone.003_end
+    100012: DEF-Bone_end
+    100014: DEF-f_index.02.L
+    100016: DEF-f_index.02.R
+    100018: DEF-f_index.03.L
+    100020: DEF-f_index.03.L_end
+    100022: DEF-f_index.03.R
+    100024: DEF-f_index.03.R_end
+    100026: DEF-f_toe.L
+    100028: DEF-f_toe.L_end
+    100030: DEF-f_toe.R
+    100032: DEF-f_toe.R_end
+    100034: DEF-foot.L
+    100036: DEF-foot.L 1
+    100038: DEF-foot.R
+    100040: DEF-foot.R 1
+    100042: DEF-forearm.L
+    100044: DEF-forearm.L 1
+    100046: DEF-forearm.R
+    100048: DEF-forearm.R 1
+    100050: DEF-hand.L
+    100052: DEF-hand.L 1
+    100054: DEF-hand.L_end
+    100056: DEF-hand.R
+    100058: DEF-hand.R 1
+    100060: DEF-hand.R_end
+    100062: DEF-r_toe.L
+    100064: DEF-r_toe.L_end
+    100066: DEF-r_toe.R
+    100068: DEF-r_toe.R_end
+    100070: DEF-shin.L
+    100072: DEF-shin.L 1
+    100074: DEF-shin.R
+    100076: DEF-shin.R 1
+    100078: DEF-shoulder.L
+    100080: DEF-shoulder.L 1
+    100082: DEF-shoulder.L_end
+    100084: DEF-shoulder.L_end 1
+    100086: DEF-shoulder.R
+    100088: DEF-shoulder.R 1
+    100090: DEF-shoulder.R_end
+    100092: DEF-shoulder.R_end 1
+    100094: DEF-spine
+    100096: DEF-spine 1
+    100098: DEF-spine.001
+    100100: DEF-spine.002
+    100102: DEF-spine.003
+    100104: DEF-spine.004
+    100106: DEF-spine.004 1
+    100108: DEF-spine.005
+    100110: DEF-spine.006
+    100112: DEF-spine.006 1
+    100114: DEF-spine.006_end
+    100116: DEF-spine.007
+    100118: DEF-spine.008
+    100120: DEF-spine.009
+    100122: DEF-spine.010
+    100124: DEF-spine.011
+    100126: DEF-spine.012
+    100128: DEF-spine.013
+    100130: DEF-spine.013_end
+    100132: DEF-spine.014
+    100134: DEF-spine.015
+    100136: DEF-spine.015_end
+    100138: DEF-thigh.L
+    100140: DEF-thigh.L 1
+    100142: DEF-thigh.R
+    100144: DEF-thigh.R 1
+    100146: DEF-thumb.01.L
+    100148: DEF-thumb.01.R
+    100150: DEF-thumb.02.L
+    100152: DEF-thumb.02.L_end
+    100154: DEF-thumb.02.R
+    100156: DEF-thumb.02.R_end
+    100158: DEF-toe.L
+    100160: DEF-toe.L_end
+    100162: DEF-toe.R
+    100164: DEF-toe.R_end
+    100166: DEF-upper_arm.L
+    100168: DEF-upper_arm.L 1
+    100170: DEF-upper_arm.L_end
+    100172: DEF-upper_arm.R
+    100174: DEF-upper_arm.R 1
+    100176: DEF-upper_arm.R_end
+    100178: forearm_fk.R
+    100180: forearm_tweak.L.001
+    100182: forearm_tweak.R.001
+    100184: group16
+    100186: group17
+    100188: group21
+    100190: hand_fk.R
+    100192: hand_fk.R_end
+    100194: head
+    100196: MCH-forearm_tweak.L.001
+    100198: MCH-forearm_tweak.R.001
+    100200: MCH-hand_fk.R
+    100202: MCH-ROT-head
+    100204: MCH-ROT-neck
+    100206: MCH-ROT-neck 1
+    100208: MCH-spine
+    100210: MCH-spine.001
+    100212: MCH-spine.002
+    100214: MCH-spine.003
+    100216: MCH-spine.005
+    100218: MCH-spine.006
+    100220: MCH-spine.007
+    100222: MCH-spine.008
+    100224: MCH-spine.009
+    100226: MCH-spine.010
+    100228: MCH-upper_arm_parent.R
+    100230: metarig
+    100232: neck
+    100234: neck 1
+    100236: Obj_caballo
+    100238: Obj_Carroza
+    100240: Obj_Puertas_02_Carroza
+    100242: Obj_Rueda_carroza
+    100244: Obj_Rueda_carroza.001
+    100246: ORG-Bone
+    100248: ORG-Bone.001
+    100250: ORG-Bone.002
+    100252: ORG-Bone.003
+    100254: ORG-forearm.L
+    100256: ORG-forearm.R
+    100258: ORG-hand.L
+    100260: ORG-hand.R
+    100262: ORG-shoulder.L
+    100264: ORG-shoulder.L 1
+    100266: ORG-shoulder.R
+    100268: ORG-shoulder.R 1
+    100270: ORG-spine
+    100272: ORG-spine.003
+    100274: ORG-spine.006
+    100276: ORG-spine.009
+    100278: ORG-spine.013
+    100280: ORG-spine.015
+    100282: ORG-upper_arm.L
+    100284: ORG-upper_arm.R
+    100286: pasted__group12
+    100288: pasted__group12.001
+    100290: pasted__group4
+    100292: pasted__group4.001
+    100294: pasted__pasted__pCube59
+    100296: pasted__pasted__pCylinder1
+    100298: pasted__pasted__pCylinder2
+    100300: pasted__pasted__polySurface21
+    100302: pasted__pasted__polySurface29
+    100304: pasted__pasted__polySurface31
+    100306: pasted__pasted__polySurface33
+    100308: pasted__pasted__polySurface34
+    100310: pasted__pasted__polySurface9
+    100312: pasted__pCube32
+    100314: pasted__pCube57
+    100316: pCube3
+    100318: rig
+    100320: rig.001
+    100322: rig.002
+    100324: root
+    100326: root 1
+    100328: root 2
+    100330: shoulder.L
+    100332: shoulder.L_end
+    100334: torso
+    100336: torso 1
+    100338: tweak_spine
+    100340: tweak_spine.003
+    100342: tweak_spine.004
+    100344: tweak_spine.004_end
+    100346: tweak_spine.006
+    100348: tweak_spine.009
+    100350: upper_arm_fk.R
+    100352: WGT-rig_head.001
+    400000: //RootNode
+    400002: DEF-Bone
+    400004: DEF-Bone.001
+    400006: DEF-Bone.001_end
+    400008: DEF-Bone.003
+    400010: DEF-Bone.003_end
+    400012: DEF-Bone_end
+    400014: DEF-f_index.02.L
+    400016: DEF-f_index.02.R
+    400018: DEF-f_index.03.L
+    400020: DEF-f_index.03.L_end
+    400022: DEF-f_index.03.R
+    400024: DEF-f_index.03.R_end
+    400026: DEF-f_toe.L
+    400028: DEF-f_toe.L_end
+    400030: DEF-f_toe.R
+    400032: DEF-f_toe.R_end
+    400034: DEF-foot.L
+    400036: DEF-foot.L 1
+    400038: DEF-foot.R
+    400040: DEF-foot.R 1
+    400042: DEF-forearm.L
+    400044: DEF-forearm.L 1
+    400046: DEF-forearm.R
+    400048: DEF-forearm.R 1
+    400050: DEF-hand.L
+    400052: DEF-hand.L 1
+    400054: DEF-hand.L_end
+    400056: DEF-hand.R
+    400058: DEF-hand.R 1
+    400060: DEF-hand.R_end
+    400062: DEF-r_toe.L
+    400064: DEF-r_toe.L_end
+    400066: DEF-r_toe.R
+    400068: DEF-r_toe.R_end
+    400070: DEF-shin.L
+    400072: DEF-shin.L 1
+    400074: DEF-shin.R
+    400076: DEF-shin.R 1
+    400078: DEF-shoulder.L
+    400080: DEF-shoulder.L 1
+    400082: DEF-shoulder.L_end
+    400084: DEF-shoulder.L_end 1
+    400086: DEF-shoulder.R
+    400088: DEF-shoulder.R 1
+    400090: DEF-shoulder.R_end
+    400092: DEF-shoulder.R_end 1
+    400094: DEF-spine
+    400096: DEF-spine 1
+    400098: DEF-spine.001
+    400100: DEF-spine.002
+    400102: DEF-spine.003
+    400104: DEF-spine.004
+    400106: DEF-spine.004 1
+    400108: DEF-spine.005
+    400110: DEF-spine.006
+    400112: DEF-spine.006 1
+    400114: DEF-spine.006_end
+    400116: DEF-spine.007
+    400118: DEF-spine.008
+    400120: DEF-spine.009
+    400122: DEF-spine.010
+    400124: DEF-spine.011
+    400126: DEF-spine.012
+    400128: DEF-spine.013
+    400130: DEF-spine.013_end
+    400132: DEF-spine.014
+    400134: DEF-spine.015
+    400136: DEF-spine.015_end
+    400138: DEF-thigh.L
+    400140: DEF-thigh.L 1
+    400142: DEF-thigh.R
+    400144: DEF-thigh.R 1
+    400146: DEF-thumb.01.L
+    400148: DEF-thumb.01.R
+    400150: DEF-thumb.02.L
+    400152: DEF-thumb.02.L_end
+    400154: DEF-thumb.02.R
+    400156: DEF-thumb.02.R_end
+    400158: DEF-toe.L
+    400160: DEF-toe.L_end
+    400162: DEF-toe.R
+    400164: DEF-toe.R_end
+    400166: DEF-upper_arm.L
+    400168: DEF-upper_arm.L 1
+    400170: DEF-upper_arm.L_end
+    400172: DEF-upper_arm.R
+    400174: DEF-upper_arm.R 1
+    400176: DEF-upper_arm.R_end
+    400178: forearm_fk.R
+    400180: forearm_tweak.L.001
+    400182: forearm_tweak.R.001
+    400184: group16
+    400186: group17
+    400188: group21
+    400190: hand_fk.R
+    400192: hand_fk.R_end
+    400194: head
+    400196: MCH-forearm_tweak.L.001
+    400198: MCH-forearm_tweak.R.001
+    400200: MCH-hand_fk.R
+    400202: MCH-ROT-head
+    400204: MCH-ROT-neck
+    400206: MCH-ROT-neck 1
+    400208: MCH-spine
+    400210: MCH-spine.001
+    400212: MCH-spine.002
+    400214: MCH-spine.003
+    400216: MCH-spine.005
+    400218: MCH-spine.006
+    400220: MCH-spine.007
+    400222: MCH-spine.008
+    400224: MCH-spine.009
+    400226: MCH-spine.010
+    400228: MCH-upper_arm_parent.R
+    400230: metarig
+    400232: neck
+    400234: neck 1
+    400236: Obj_caballo
+    400238: Obj_Carroza
+    400240: Obj_Puertas_02_Carroza
+    400242: Obj_Rueda_carroza
+    400244: Obj_Rueda_carroza.001
+    400246: ORG-Bone
+    400248: ORG-Bone.001
+    400250: ORG-Bone.002
+    400252: ORG-Bone.003
+    400254: ORG-forearm.L
+    400256: ORG-forearm.R
+    400258: ORG-hand.L
+    400260: ORG-hand.R
+    400262: ORG-shoulder.L
+    400264: ORG-shoulder.L 1
+    400266: ORG-shoulder.R
+    400268: ORG-shoulder.R 1
+    400270: ORG-spine
+    400272: ORG-spine.003
+    400274: ORG-spine.006
+    400276: ORG-spine.009
+    400278: ORG-spine.013
+    400280: ORG-spine.015
+    400282: ORG-upper_arm.L
+    400284: ORG-upper_arm.R
+    400286: pasted__group12
+    400288: pasted__group12.001
+    400290: pasted__group4
+    400292: pasted__group4.001
+    400294: pasted__pasted__pCube59
+    400296: pasted__pasted__pCylinder1
+    400298: pasted__pasted__pCylinder2
+    400300: pasted__pasted__polySurface21
+    400302: pasted__pasted__polySurface29
+    400304: pasted__pasted__polySurface31
+    400306: pasted__pasted__polySurface33
+    400308: pasted__pasted__polySurface34
+    400310: pasted__pasted__polySurface9
+    400312: pasted__pCube32
+    400314: pasted__pCube57
+    400316: pCube3
+    400318: rig
+    400320: rig.001
+    400322: rig.002
+    400324: root
+    400326: root 1
+    400328: root 2
+    400330: shoulder.L
+    400332: shoulder.L_end
+    400334: torso
+    400336: torso 1
+    400338: tweak_spine
+    400340: tweak_spine.003
+    400342: tweak_spine.004
+    400344: tweak_spine.004_end
+    400346: tweak_spine.006
+    400348: tweak_spine.009
+    400350: upper_arm_fk.R
+    400352: WGT-rig_head.001
+    2100000: Mat_carroza
+    2100002: Mat_ruedas_Carroza
+    2100004: lambert1
+    2100006: Mat_caballo.001
+    4300000: Obj_Carroza
+    4300002: Obj_Puertas_02_Carroza
+    4300004: Obj_Rueda_carroza
+    4300006: Obj_Rueda_carroza.001
+    4300008: pasted__group4.001
+    4300010: pasted__group12.001
+    4300012: group21
+    4300014: pasted__pasted__pCube59
+    4300016: pasted__pCube57
+    4300018: group17
+    4300020: group16
+    4300022: pasted__pasted__polySurface34
+    4300024: pasted__pasted__polySurface33
+    4300026: pasted__pasted__pCylinder2
+    4300028: pasted__pasted__polySurface31
+    4300030: pasted__pasted__polySurface29
+    4300032: pasted__pCube32
+    4300034: pCube3
+    4300036: pasted__pasted__polySurface21
+    4300038: pasted__pasted__polySurface9
+    4300040: pasted__pasted__pCylinder1
+    4300042: pasted__group12
+    4300044: pasted__group4
+    4300046: WGT-rig_head.001
+    4300048: Obj_caballo
+    7400000: rig|Carroza
+    7400002: rig.002|cochero
+    7400004: rig.001|walk
+    9500000: //RootNode
+    13700000: group16
+    13700002: group17
+    13700004: group21
+    13700006: Obj_caballo
+    13700008: Obj_Carroza
+    13700010: Obj_Puertas_02_Carroza
+    13700012: Obj_Rueda_carroza
+    13700014: Obj_Rueda_carroza.001
+    13700016: pasted__group12
+    13700018: pasted__group12.001
+    13700020: pasted__group4
+    13700022: pasted__group4.001
+    13700024: pasted__pasted__pCube59
+    13700026: pasted__pasted__pCylinder1
+    13700028: pasted__pasted__pCylinder2
+    13700030: pasted__pasted__polySurface21
+    13700032: pasted__pasted__polySurface29
+    13700034: pasted__pasted__polySurface31
+    13700036: pasted__pasted__polySurface33
+    13700038: pasted__pasted__polySurface34
+    13700040: pasted__pasted__polySurface9
+    13700042: pasted__pCube32
+    13700044: pasted__pCube57
+    13700046: pCube3
+    13700048: WGT-rig_head.001
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: d3ce99c738d613144bead8c0a2c14c82
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chest
+    100004: chest_end
+    100006: DEF-f_pinky.01.L
+    100008: DEF-f_pinky.01.L.001
+    100010: DEF-f_pinky.01.L.002
+    100012: DEF-f_pinky.01.L.003
+    100014: DEF-f_pinky.02.L
+    100016: DEF-f_pinky.02.L.001
+    100018: DEF-f_pinky.02.L.001_end
+    100020: DEF-f_pinky.02.L.002
+    100022: DEF-f_pinky.02.L.002_end
+    100024: DEF-f_pinky.02.L.003
+    100026: DEF-f_pinky.02.L.003_end
+    100028: DEF-f_pinky.02.L_end
+    100030: DEF-foot.L
+    100032: DEF-foot.R
+    100034: DEF-forearm.L
+    100036: DEF-forearm.R
+    100038: DEF-hand.L
+    100040: DEF-hand.L_end
+    100042: DEF-hand.R
+    100044: DEF-hand.R_end
+    100046: DEF-shin.L
+    100048: DEF-shin.R
+    100050: DEF-shoulder.L
+    100052: DEF-shoulder.L_end
+    100054: DEF-shoulder.R
+    100056: DEF-shoulder.R_end
+    100058: DEF-spine
+    100060: DEF-spine.001
+    100062: DEF-spine.002
+    100064: DEF-spine.003
+    100066: DEF-spine.004
+    100068: DEF-spine.005
+    100070: DEF-spine.005_end
+    100072: DEF-thigh.L
+    100074: DEF-thigh.R
+    100076: DEF-toe.L
+    100078: DEF-toe.L_end
+    100080: DEF-toe.R
+    100082: DEF-toe.R_end
+    100084: DEF-upper_arm.L
+    100086: DEF-upper_arm.R
+    100088: f_pinky.01.L
+    100090: f_pinky.01.L 1
+    100092: f_pinky.01.L.001
+    100094: f_pinky.01.L.001 1
+    100096: f_pinky.01.L.002
+    100098: f_pinky.01.L.002 1
+    100100: f_pinky.01.L.003
+    100102: f_pinky.02.L
+    100104: f_pinky.02.L 1
+    100106: f_pinky.02.L.001
+    100108: f_pinky.02.L.001 1
+    100110: f_pinky.02.L.001_end
+    100112: f_pinky.02.L.001_end 1
+    100114: f_pinky.02.L.002
+    100116: f_pinky.02.L.002 1
+    100118: f_pinky.02.L.002_end
+    100120: f_pinky.02.L.002_end 1
+    100122: f_pinky.02.L.003
+    100124: f_pinky.02.L.003_end
+    100126: f_pinky.02.L_end
+    100128: f_pinky.02.L_end 1
+    100130: foot.L
+    100132: foot.R
+    100134: forearm.L
+    100136: forearm.R
+    100138: hand.L
+    100140: hand.R
+    100142: heel.02.L
+    100144: heel.02.L_end
+    100146: heel.02.R
+    100148: heel.02.R_end
+    100150: MCH-ROT-neck
+    100152: MCH-spine
+    100154: MCH-spine.001
+    100156: MCH-spine.002
+    100158: MCH-spine.003
+    100160: MCH-upper_arm_parent.L
+    100162: MCH-upper_arm_parent.R
+    100164: metarig
+    100166: neck
+    100168: neck_end
+    100170: ORG-forearm.L
+    100172: ORG-forearm.R
+    100174: ORG-hand.L
+    100176: ORG-hand.R
+    100178: ORG-palm.04.L.001
+    100180: ORG-palm.04.L.002
+    100182: ORG-palm.04.L.003
+    100184: ORG-shoulder.L
+    100186: ORG-shoulder.R
+    100188: ORG-spine
+    100190: ORG-spine.003
+    100192: ORG-upper_arm.L
+    100194: ORG-upper_arm.R
+    100196: palm.04.L.001
+    100198: palm.04.L.002
+    100200: palm.04.L.003
+    100202: rig
+    100204: root
+    100206: shin.L
+    100208: shin.R
+    100210: shoulder.L
+    100212: shoulder.L 1
+    100214: shoulder.L_end
+    100216: shoulder.R
+    100218: shoulder.R 1
+    100220: shoulder.R_end
+    100222: spine
+    100224: spine.001
+    100226: spine.002
+    100228: spine.003
+    100230: spine.004
+    100232: spine.005
+    100234: spine.005_end
+    100236: thigh.L
+    100238: thigh.R
+    100240: toe.L
+    100242: toe.L_end
+    100244: toe.R
+    100246: toe.R_end
+    100248: torso
+    100250: tweak_spine
+    100252: tweak_spine.003
+    100254: upper_arm.L
+    100256: upper_arm.R
+    100258: upper_arm_fk.L
+    100260: upper_arm_fk.L_end
+    100262: upper_arm_fk.R
+    100264: upper_arm_fk.R_end
+    400000: //RootNode
+    400002: chest
+    400004: chest_end
+    400006: DEF-f_pinky.01.L
+    400008: DEF-f_pinky.01.L.001
+    400010: DEF-f_pinky.01.L.002
+    400012: DEF-f_pinky.01.L.003
+    400014: DEF-f_pinky.02.L
+    400016: DEF-f_pinky.02.L.001
+    400018: DEF-f_pinky.02.L.001_end
+    400020: DEF-f_pinky.02.L.002
+    400022: DEF-f_pinky.02.L.002_end
+    400024: DEF-f_pinky.02.L.003
+    400026: DEF-f_pinky.02.L.003_end
+    400028: DEF-f_pinky.02.L_end
+    400030: DEF-foot.L
+    400032: DEF-foot.R
+    400034: DEF-forearm.L
+    400036: DEF-forearm.R
+    400038: DEF-hand.L
+    400040: DEF-hand.L_end
+    400042: DEF-hand.R
+    400044: DEF-hand.R_end
+    400046: DEF-shin.L
+    400048: DEF-shin.R
+    400050: DEF-shoulder.L
+    400052: DEF-shoulder.L_end
+    400054: DEF-shoulder.R
+    400056: DEF-shoulder.R_end
+    400058: DEF-spine
+    400060: DEF-spine.001
+    400062: DEF-spine.002
+    400064: DEF-spine.003
+    400066: DEF-spine.004
+    400068: DEF-spine.005
+    400070: DEF-spine.005_end
+    400072: DEF-thigh.L
+    400074: DEF-thigh.R
+    400076: DEF-toe.L
+    400078: DEF-toe.L_end
+    400080: DEF-toe.R
+    400082: DEF-toe.R_end
+    400084: DEF-upper_arm.L
+    400086: DEF-upper_arm.R
+    400088: f_pinky.01.L
+    400090: f_pinky.01.L 1
+    400092: f_pinky.01.L.001
+    400094: f_pinky.01.L.001 1
+    400096: f_pinky.01.L.002
+    400098: f_pinky.01.L.002 1
+    400100: f_pinky.01.L.003
+    400102: f_pinky.02.L
+    400104: f_pinky.02.L 1
+    400106: f_pinky.02.L.001
+    400108: f_pinky.02.L.001 1
+    400110: f_pinky.02.L.001_end
+    400112: f_pinky.02.L.001_end 1
+    400114: f_pinky.02.L.002
+    400116: f_pinky.02.L.002 1
+    400118: f_pinky.02.L.002_end
+    400120: f_pinky.02.L.002_end 1
+    400122: f_pinky.02.L.003
+    400124: f_pinky.02.L.003_end
+    400126: f_pinky.02.L_end
+    400128: f_pinky.02.L_end 1
+    400130: foot.L
+    400132: foot.R
+    400134: forearm.L
+    400136: forearm.R
+    400138: hand.L
+    400140: hand.R
+    400142: heel.02.L
+    400144: heel.02.L_end
+    400146: heel.02.R
+    400148: heel.02.R_end
+    400150: MCH-ROT-neck
+    400152: MCH-spine
+    400154: MCH-spine.001
+    400156: MCH-spine.002
+    400158: MCH-spine.003
+    400160: MCH-upper_arm_parent.L
+    400162: MCH-upper_arm_parent.R
+    400164: metarig
+    400166: neck
+    400168: neck_end
+    400170: ORG-forearm.L
+    400172: ORG-forearm.R
+    400174: ORG-hand.L
+    400176: ORG-hand.R
+    400178: ORG-palm.04.L.001
+    400180: ORG-palm.04.L.002
+    400182: ORG-palm.04.L.003
+    400184: ORG-shoulder.L
+    400186: ORG-shoulder.R
+    400188: ORG-spine
+    400190: ORG-spine.003
+    400192: ORG-upper_arm.L
+    400194: ORG-upper_arm.R
+    400196: palm.04.L.001
+    400198: palm.04.L.002
+    400200: palm.04.L.003
+    400202: rig
+    400204: root
+    400206: shin.L
+    400208: shin.R
+    400210: shoulder.L
+    400212: shoulder.L 1
+    400214: shoulder.L_end
+    400216: shoulder.R
+    400218: shoulder.R 1
+    400220: shoulder.R_end
+    400222: spine
+    400224: spine.001
+    400226: spine.002
+    400228: spine.003
+    400230: spine.004
+    400232: spine.005
+    400234: spine.005_end
+    400236: thigh.L
+    400238: thigh.R
+    400240: toe.L
+    400242: toe.L_end
+    400244: toe.R
+    400246: toe.R_end
+    400248: torso
+    400250: tweak_spine
+    400252: tweak_spine.003
+    400254: upper_arm.L
+    400256: upper_arm.R
+    400258: upper_arm_fk.L
+    400260: upper_arm_fk.L_end
+    400262: upper_arm_fk.R
+    400264: upper_arm_fk.R_end
+    7400000: rig|IDLE ALDEANA
+    7400002: rig|WALK ALDEANA
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

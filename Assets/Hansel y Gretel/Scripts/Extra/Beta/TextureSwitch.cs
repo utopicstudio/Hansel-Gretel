@@ -11,7 +11,7 @@ public class TextureSwitch : MonoBehaviour
     Texture originalTexture;
     public Texture SwichTexture;
     public Texture SwichTextureBlink;
-    public bool switched;
+    public bool switched = true;
     float TimeOfBlink;
     public float TimeOfBlinkMax = 50f;
     public float DurationOfBlink = 0.3f;//Duration of blink
@@ -22,7 +22,7 @@ public class TextureSwitch : MonoBehaviour
     {
         textureChange = MeshChangeTexture.GetComponent<Renderer>().material.mainTexture;
         originalTexture = textureChange;
-        MeshChangeTexture.material.mainTexture = SwichTextureBlink;
+        //MeshChangeTexture.material.mainTexture = SwichTextureBlink;
     }
 
     // Update is called once per frame

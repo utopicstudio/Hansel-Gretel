@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 70dc6b2a265e75e4c9983566e50a350b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone_end
+    100006: DEF-bone.002
+    100008: DEF-bone.003
+    100010: DEF-bone.004
+    100012: DEF-bone.004_end
+    100014: DEF-bone.005
+    100016: DEF-bone.006
+    100018: DEF-bone.007
+    100020: DEF-bone.007_end
+    100022: DEF-bone.01
+    100024: DEF-bone.02
+    100026: DEF-bone.03
+    100028: DEF-bone.03_end
+    100030: DEF-foot.L
+    100032: DEF-foot.L.001
+    100034: DEF-foot.L.001_end
+    100036: DEF-foot.L.002
+    100038: DEF-foot.L.002_end
+    100040: DEF-foot.L.003
+    100042: DEF-foot.L.003_end
+    100044: DEF-foot.L_end
+    100046: DEF-shin.L
+    100048: DEF-shin.L.001
+    100050: DEF-shin.L.002
+    100052: DEF-shin.L.003
+    100054: DEF-shin.L.004
+    100056: DEF-shin.L.005
+    100058: DEF-shin.L.006
+    100060: DEF-shin.L.007
+    100062: DEF-thigh.L
+    100064: DEF-thigh.L.001
+    100066: DEF-thigh.L.002
+    100068: DEF-thigh.L.003
+    100070: DEF-thigh.L.004
+    100072: DEF-thigh.L.005
+    100074: DEF-thigh.L.006
+    100076: DEF-thigh.L.007
+    100078: //RootNode
+    100080: Elefante_mago
+    100082: metarig
+    100084: ORG-Bone
+    100086: ORG-bone.01
+    100088: ORG-bone.02
+    100090: ORG-bone.03
+    100092: rig
+    100094: root
+    400000: Armature
+    400002: Bone
+    400004: Bone_end
+    400006: DEF-bone.002
+    400008: DEF-bone.003
+    400010: DEF-bone.004
+    400012: DEF-bone.004_end
+    400014: DEF-bone.005
+    400016: DEF-bone.006
+    400018: DEF-bone.007
+    400020: DEF-bone.007_end
+    400022: DEF-bone.01
+    400024: DEF-bone.02
+    400026: DEF-bone.03
+    400028: DEF-bone.03_end
+    400030: DEF-foot.L
+    400032: DEF-foot.L.001
+    400034: DEF-foot.L.001_end
+    400036: DEF-foot.L.002
+    400038: DEF-foot.L.002_end
+    400040: DEF-foot.L.003
+    400042: DEF-foot.L.003_end
+    400044: DEF-foot.L_end
+    400046: DEF-shin.L
+    400048: DEF-shin.L.001
+    400050: DEF-shin.L.002
+    400052: DEF-shin.L.003
+    400054: DEF-shin.L.004
+    400056: DEF-shin.L.005
+    400058: DEF-shin.L.006
+    400060: DEF-shin.L.007
+    400062: DEF-thigh.L
+    400064: DEF-thigh.L.001
+    400066: DEF-thigh.L.002
+    400068: DEF-thigh.L.003
+    400070: DEF-thigh.L.004
+    400072: DEF-thigh.L.005
+    400074: DEF-thigh.L.006
+    400076: DEF-thigh.L.007
+    400078: //RootNode
+    400080: Elefante_mago
+    400082: metarig
+    400084: ORG-Bone
+    400086: ORG-bone.01
+    400088: ORG-bone.02
+    400090: ORG-bone.03
+    400092: rig
+    400094: root
+    2100000: Material
+    2100002: Material.001
+    4300000: Elefante_mago
+    7400000: rig|Idle
+    9500000: //RootNode
+    13700000: Elefante_mago
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

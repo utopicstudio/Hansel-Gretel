@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: e8257674d2dc74145811d550e27961b0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Obj_Coin
+    100002: Obj_Mill_Bag
+    100004: Obj_Mill_bagFlour
+    100006: Obj_Mill_Chair
+    100008: Obj_Mill_Chest
+    100010: Obj_Mill_EdgeEndR
+    100012: Obj_Mill_EdgeEndRight
+    100014: Obj_Mill_Torch
+    100016: //RootNode
+    100018: Obj_Mill_EdgeEndCenter
+    400000: Obj_Coin
+    400002: Obj_Mill_Bag
+    400004: Obj_Mill_bagFlour
+    400006: Obj_Mill_Chair
+    400008: Obj_Mill_Chest
+    400010: Obj_Mill_EdgeEndR
+    400012: Obj_Mill_EdgeEndRight
+    400014: Obj_Mill_Torch
+    400016: //RootNode
+    400018: Obj_Mill_EdgeEndCenter
+    2100000: Props_Mat_color
+    2300000: Obj_Coin
+    2300002: Obj_Mill_Bag
+    2300004: Obj_Mill_bagFlour
+    2300006: Obj_Mill_Chair
+    2300008: Obj_Mill_Chest
+    2300010: Obj_Mill_EdgeEndR
+    2300012: Obj_Mill_EdgeEndRight
+    2300014: Obj_Mill_Torch
+    2300016: Obj_Mill_EdgeEndCenter
+    3300000: Obj_Coin
+    3300002: Obj_Mill_Bag
+    3300004: Obj_Mill_bagFlour
+    3300006: Obj_Mill_Chair
+    3300008: Obj_Mill_Chest
+    3300010: Obj_Mill_EdgeEndR
+    3300012: Obj_Mill_EdgeEndRight
+    3300014: Obj_Mill_Torch
+    3300016: Obj_Mill_EdgeEndCenter
+    4300000: Obj_Mill_EdgeEndR
+    4300002: Obj_Mill_EdgeEndRight
+    4300004: Obj_Mill_Chest
+    4300006: Obj_Mill_Bag
+    4300008: Obj_Mill_bagFlour
+    4300010: Obj_Mill_Chair
+    4300012: Obj_Mill_Torch
+    4300014: Obj_Coin
+    4300016: Obj_Mill_EdgeEndCenter
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Props_Mat_color
+    second: {fileID: 2100000, guid: 8c9989f3190c4974eb52b79f44c57587, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

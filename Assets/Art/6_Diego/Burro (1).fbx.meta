@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: c0f84d4e32439cf4498782fd67217860
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Burro
+    100002: //RootNode
+    100004: DEF-f_toe.L
+    100006: DEF-f_toe.L_end
+    100008: DEF-f_toe.R
+    100010: DEF-f_toe.R_end
+    100012: DEF-foot.L
+    100014: DEF-foot.R
+    100016: DEF-forearm.L
+    100018: DEF-forearm.R
+    100020: DEF-hand.L
+    100022: DEF-hand.L.001
+    100024: DEF-hand.R
+    100026: DEF-hand.R.001
+    100028: DEF-r_toe.L
+    100030: DEF-r_toe.L_end
+    100032: DEF-r_toe.R
+    100034: DEF-r_toe.R_end
+    100036: DEF-shin.L
+    100038: DEF-shin.R
+    100040: DEF-spine
+    100042: DEF-spine.002
+    100044: DEF-spine.004
+    100046: DEF-spine.005
+    100048: DEF-spine.006
+    100050: DEF-spine.007
+    100052: DEF-spine.008
+    100054: DEF-spine.009
+    100056: DEF-spine.011
+    100058: DEF-spine.013
+    100060: DEF-spine.013_end
+    100062: DEF-spine.014
+    100064: DEF-spine.015
+    100066: DEF-spine.015_end
+    100068: DEF-thigh.L
+    100070: DEF-thigh.R
+    100072: DEF-upper_arm.L
+    100074: DEF-upper_arm.R
+    100076: head
+    100078: MCH-ROT-head
+    100080: MCH-ROT-neck
+    100082: MCH-spine.005
+    100084: MCH-spine.006
+    100086: MCH-spine.007
+    100088: MCH-spine.008
+    100090: MCH-spine.009
+    100092: MCH-spine.010
+    100094: neck
+    100096: ORG-spine.006
+    100098: ORG-spine.009
+    100100: ORG-spine.013
+    100102: ORG-spine.015
+    100104: rig
+    100106: root
+    100108: torso
+    100110: tweak_spine.006
+    100112: tweak_spine.009
+    400000: Burro
+    400002: //RootNode
+    400004: DEF-f_toe.L
+    400006: DEF-f_toe.L_end
+    400008: DEF-f_toe.R
+    400010: DEF-f_toe.R_end
+    400012: DEF-foot.L
+    400014: DEF-foot.R
+    400016: DEF-forearm.L
+    400018: DEF-forearm.R
+    400020: DEF-hand.L
+    400022: DEF-hand.L.001
+    400024: DEF-hand.R
+    400026: DEF-hand.R.001
+    400028: DEF-r_toe.L
+    400030: DEF-r_toe.L_end
+    400032: DEF-r_toe.R
+    400034: DEF-r_toe.R_end
+    400036: DEF-shin.L
+    400038: DEF-shin.R
+    400040: DEF-spine
+    400042: DEF-spine.002
+    400044: DEF-spine.004
+    400046: DEF-spine.005
+    400048: DEF-spine.006
+    400050: DEF-spine.007
+    400052: DEF-spine.008
+    400054: DEF-spine.009
+    400056: DEF-spine.011
+    400058: DEF-spine.013
+    400060: DEF-spine.013_end
+    400062: DEF-spine.014
+    400064: DEF-spine.015
+    400066: DEF-spine.015_end
+    400068: DEF-thigh.L
+    400070: DEF-thigh.R
+    400072: DEF-upper_arm.L
+    400074: DEF-upper_arm.R
+    400076: head
+    400078: MCH-ROT-head
+    400080: MCH-ROT-neck
+    400082: MCH-spine.005
+    400084: MCH-spine.006
+    400086: MCH-spine.007
+    400088: MCH-spine.008
+    400090: MCH-spine.009
+    400092: MCH-spine.010
+    400094: neck
+    400096: ORG-spine.006
+    400098: ORG-spine.009
+    400100: ORG-spine.013
+    400102: ORG-spine.015
+    400104: rig
+    400106: root
+    400108: torso
+    400110: tweak_spine.006
+    400112: tweak_spine.009
+    2100000: Burro
+    4300000: Burro
+    7400000: rig|rigAction
+    9500000: //RootNode
+    13700000: Burro
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

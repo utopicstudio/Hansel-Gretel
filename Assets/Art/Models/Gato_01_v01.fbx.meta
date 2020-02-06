@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: b7c3b5a7c9d26e7498111f4c43b83665
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bigote_01
+    100002: Bigote_02
+    100004: Bigote_03
+    100006: Bigote_04
+    100008: Bota_der
+    100010: Bota_izq
+    100012: Cinturon
+    100014: Gato
+    100016: //RootNode
+    100018: group10
+    100020: group11
+    100022: group12
+    100024: group9
+    100026: Hebilla
+    100028: Liston
+    100030: Metal
+    100032: Orejas_der
+    100034: Orejas_izq
+    100036: Pluma
+    100038: polySurface4
+    100040: polySurface5
+    100042: polySurface6
+    100044: transform1
+    100046: transform2
+    100048: Zombreo
+    400000: Bigote_01
+    400002: Bigote_02
+    400004: Bigote_03
+    400006: Bigote_04
+    400008: Bota_der
+    400010: Bota_izq
+    400012: Cinturon
+    400014: Gato
+    400016: //RootNode
+    400018: group10
+    400020: group11
+    400022: group12
+    400024: group9
+    400026: Hebilla
+    400028: Liston
+    400030: Metal
+    400032: Orejas_der
+    400034: Orejas_izq
+    400036: Pluma
+    400038: polySurface4
+    400040: polySurface5
+    400042: polySurface6
+    400044: transform1
+    400046: transform2
+    400048: Zombreo
+    2100000: lambert1
+    2300000: Bigote_01
+    2300002: Bigote_02
+    2300004: Bigote_03
+    2300006: Bigote_04
+    2300008: Bota_der
+    2300010: Bota_izq
+    2300012: Cinturon
+    2300014: Gato
+    2300016: Hebilla
+    2300018: Liston
+    2300020: Metal
+    2300022: Orejas_der
+    2300024: Orejas_izq
+    2300026: Pluma
+    2300028: polySurface6
+    2300030: Zombreo
+    3300000: Bigote_01
+    3300002: Bigote_02
+    3300004: Bigote_03
+    3300006: Bigote_04
+    3300008: Bota_der
+    3300010: Bota_izq
+    3300012: Cinturon
+    3300014: Gato
+    3300016: Hebilla
+    3300018: Liston
+    3300020: Metal
+    3300022: Orejas_der
+    3300024: Orejas_izq
+    3300026: Pluma
+    3300028: polySurface6
+    3300030: Zombreo
+    4300000: Bota_izq
+    4300002: Metal
+    4300004: Zombreo
+    4300006: Liston
+    4300008: Pluma
+    4300010: Bigote_03
+    4300012: Orejas_izq
+    4300014: Gato
+    4300016: Cinturon
+    4300018: Hebilla
+    4300020: Bigote_01
+    4300022: Bigote_02
+    4300024: Bigote_04
+    4300026: Orejas_der
+    4300028: Bota_der
+    4300030: polySurface6
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: a16232cb3294a70458acbd4602ad14f2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

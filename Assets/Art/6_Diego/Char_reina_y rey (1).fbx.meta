@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: a2697458d3baf444d9079bc429d3530a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DEF-Bone.001
+    100004: DEF-Bone.001 1
+    100006: DEF-Bone.001_end
+    100008: DEF-Bone.001_end 1
+    100010: DEF-Bone.002
+    100012: DEF-Bone.002 1
+    100014: DEF-Bone.002_end
+    100016: DEF-Bone.002_end 1
+    100018: DEF-Bone.003
+    100020: DEF-Bone.003 1
+    100022: DEF-Bone.003_end
+    100024: DEF-Bone.003_end 1
+    100026: DEF-Bone.004
+    100028: DEF-Bone.004 1
+    100030: DEF-Bone.004_end
+    100032: DEF-Bone.004_end 1
+    100034: DEF-Bone.005
+    100036: DEF-Bone.005 1
+    100038: DEF-Bone.005_end
+    100040: DEF-Bone.005_end 1
+    100042: DEF-Bone.006
+    100044: DEF-Bone.006 1
+    100046: DEF-Bone.006_end
+    100048: DEF-Bone.006_end 1
+    100050: DEF-Bone.007
+    100052: DEF-Bone.007_end
+    100054: DEF-Bone.008
+    100056: DEF-Bone.008 1
+    100058: DEF-Bone.008_end
+    100060: DEF-Bone.008_end 1
+    100062: DEF-f_middle.01.L
+    100064: DEF-f_middle.01.L 1
+    100066: DEF-f_middle.01.L.001
+    100068: DEF-f_middle.01.L.001 1
+    100070: DEF-f_middle.02.L
+    100072: DEF-f_middle.02.L 1
+    100074: DEF-f_middle.02.L.001
+    100076: DEF-f_middle.02.L.001 1
+    100078: DEF-f_middle.02.L.001_end
+    100080: DEF-f_middle.02.L.001_end 1
+    100082: DEF-f_middle.02.L_end
+    100084: DEF-f_middle.02.L_end 1
+    100086: DEF-foot.L
+    100088: DEF-foot.L.001
+    100090: DEF-forearm.L
+    100092: DEF-forearm.L 1
+    100094: DEF-forearm.L.002
+    100096: DEF-forearm.L.002 1
+    100098: DEF-hand.L
+    100100: DEF-hand.L 1
+    100102: DEF-hand.L.001
+    100104: DEF-hand.L.001 1
+    100106: DEF-hand.L.001_end
+    100108: DEF-hand.L.001_end 1
+    100110: DEF-hand.L_end
+    100112: DEF-hand.L_end 1
+    100114: DEF-shin.L
+    100116: DEF-shin.L 1
+    100118: DEF-shin.L.002
+    100120: DEF-shin.L.002 1
+    100122: DEF-thigh.L
+    100124: DEF-thigh.L 1
+    100126: DEF-thigh.L.002
+    100128: DEF-thigh.L.002 1
+    100130: DEF-thumb.01.L
+    100132: DEF-thumb.01.L 1
+    100134: DEF-thumb.01.L.001
+    100136: DEF-thumb.01.L.001 1
+    100138: DEF-thumb.02.L
+    100140: DEF-thumb.02.L 1
+    100142: DEF-thumb.02.L.001
+    100144: DEF-thumb.02.L.001 1
+    100146: DEF-thumb.02.L.001_end
+    100148: DEF-thumb.02.L.001_end 1
+    100150: DEF-thumb.02.L_end
+    100152: DEF-thumb.02.L_end 1
+    100154: DEF-toe.L
+    100156: DEF-toe.L 1
+    100158: DEF-toe.L.001
+    100160: DEF-toe.L.001 1
+    100162: DEF-toe.L.001_end
+    100164: DEF-toe.L.001_end 1
+    100166: DEF-toe.L_end
+    100168: DEF-toe.L_end 1
+    100170: DEF-upper_arm.L
+    100172: DEF-upper_arm.L 1
+    100174: DEF-upper_arm.L.002
+    100176: DEF-upper_arm.L.002 1
+    100178: group13
+    100180: group31
+    100182: group32
+    100184: group37
+    100186: group38
+    100188: group4
+    100190: group48
+    100192: group49
+    100194: group50
+    100196: Obj_Pelusa
+    100198: ORG-Bone.001
+    100200: ORG-Bone.001 1
+    100202: ORG-Bone.002
+    100204: ORG-Bone.002 1
+    100206: ORG-Bone.003
+    100208: ORG-Bone.003 1
+    100210: ORG-Bone.004
+    100212: ORG-Bone.004 1
+    100214: ORG-Bone.005
+    100216: ORG-Bone.005 1
+    100218: ORG-Bone.006
+    100220: ORG-Bone.006 1
+    100222: ORG-Bone.007
+    100224: ORG-Bone.008
+    100226: ORG-Bone.008 1
+    100228: ORG-forearm.L
+    100230: ORG-forearm.L 1
+    100232: ORG-forearm.L.001
+    100234: ORG-forearm.L.001 1
+    100236: ORG-hand.L
+    100238: ORG-hand.L 1
+    100240: ORG-hand.L.001
+    100242: ORG-hand.L.001 1
+    100244: ORG-palm.02.L
+    100246: ORG-palm.02.L 1
+    100248: ORG-palm.02.L.001
+    100250: ORG-palm.02.L.001 1
+    100252: ORG-upper_arm.L
+    100254: ORG-upper_arm.L 1
+    100256: ORG-upper_arm.L.001
+    100258: ORG-upper_arm.L.001 1
+    100260: pasted__group12
+    100262: pasted__group32
+    100264: pasted__group33
+    100266: pasted__group33.001
+    100268: pasted__group34
+    100270: pasted__group4
+    100272: pasted__pasted__pCylinder1
+    100274: pasted__pasted__pCylinder2
+    100276: pasted__pasted__polySurface10
+    100278: pasted__pasted__polySurface9
+    100280: pasted__pCube9
+    100282: pasted__pCylinder35
+    100284: pCube44
+    100286: pCube45
+    100288: pCube47
+    100290: pCube54
+    100292: pCube58
+    100294: pCube61
+    100296: pCube62
+    100298: pCube62.001
+    100300: pCube63
+    100302: pCube63.001
+    100304: pCube64
+    100306: pCube65
+    100308: pCube68
+    100310: pCylinder1
+    100312: pCylinder17
+    100314: pCylinder20
+    100316: pCylinder21
+    100318: pCylinder22
+    100320: pCylinder25
+    100322: pCylinder27
+    100324: pCylinder6
+    100326: pCylinder7
+    100328: polySurface13
+    100330: polySurface15
+    100332: polySurface16
+    100334: polySurface18
+    100336: polySurface19
+    100338: polySurface20
+    100340: polySurface21
+    100342: polySurface22
+    100344: polySurface24
+    100346: polySurface25
+    100348: rig
+    100350: rig.001
+    100352: root
+    100354: root 1
+    400000: //RootNode
+    400002: DEF-Bone.001
+    400004: DEF-Bone.001 1
+    400006: DEF-Bone.001_end
+    400008: DEF-Bone.001_end 1
+    400010: DEF-Bone.002
+    400012: DEF-Bone.002 1
+    400014: DEF-Bone.002_end
+    400016: DEF-Bone.002_end 1
+    400018: DEF-Bone.003
+    400020: DEF-Bone.003 1
+    400022: DEF-Bone.003_end
+    400024: DEF-Bone.003_end 1
+    400026: DEF-Bone.004
+    400028: DEF-Bone.004 1
+    400030: DEF-Bone.004_end
+    400032: DEF-Bone.004_end 1
+    400034: DEF-Bone.005
+    400036: DEF-Bone.005 1
+    400038: DEF-Bone.005_end
+    400040: DEF-Bone.005_end 1
+    400042: DEF-Bone.006
+    400044: DEF-Bone.006 1
+    400046: DEF-Bone.006_end
+    400048: DEF-Bone.006_end 1
+    400050: DEF-Bone.007
+    400052: DEF-Bone.007_end
+    400054: DEF-Bone.008
+    400056: DEF-Bone.008 1
+    400058: DEF-Bone.008_end
+    400060: DEF-Bone.008_end 1
+    400062: DEF-f_middle.01.L
+    400064: DEF-f_middle.01.L 1
+    400066: DEF-f_middle.01.L.001
+    400068: DEF-f_middle.01.L.001 1
+    400070: DEF-f_middle.02.L
+    400072: DEF-f_middle.02.L 1
+    400074: DEF-f_middle.02.L.001
+    400076: DEF-f_middle.02.L.001 1
+    400078: DEF-f_middle.02.L.001_end
+    400080: DEF-f_middle.02.L.001_end 1
+    400082: DEF-f_middle.02.L_end
+    400084: DEF-f_middle.02.L_end 1
+    400086: DEF-foot.L
+    400088: DEF-foot.L.001
+    400090: DEF-forearm.L
+    400092: DEF-forearm.L 1
+    400094: DEF-forearm.L.002
+    400096: DEF-forearm.L.002 1
+    400098: DEF-hand.L
+    400100: DEF-hand.L 1
+    400102: DEF-hand.L.001
+    400104: DEF-hand.L.001 1
+    400106: DEF-hand.L.001_end
+    400108: DEF-hand.L.001_end 1
+    400110: DEF-hand.L_end
+    400112: DEF-hand.L_end 1
+    400114: DEF-shin.L
+    400116: DEF-shin.L 1
+    400118: DEF-shin.L.002
+    400120: DEF-shin.L.002 1
+    400122: DEF-thigh.L
+    400124: DEF-thigh.L 1
+    400126: DEF-thigh.L.002
+    400128: DEF-thigh.L.002 1
+    400130: DEF-thumb.01.L
+    400132: DEF-thumb.01.L 1
+    400134: DEF-thumb.01.L.001
+    400136: DEF-thumb.01.L.001 1
+    400138: DEF-thumb.02.L
+    400140: DEF-thumb.02.L 1
+    400142: DEF-thumb.02.L.001
+    400144: DEF-thumb.02.L.001 1
+    400146: DEF-thumb.02.L.001_end
+    400148: DEF-thumb.02.L.001_end 1
+    400150: DEF-thumb.02.L_end
+    400152: DEF-thumb.02.L_end 1
+    400154: DEF-toe.L
+    400156: DEF-toe.L 1
+    400158: DEF-toe.L.001
+    400160: DEF-toe.L.001 1
+    400162: DEF-toe.L.001_end
+    400164: DEF-toe.L.001_end 1
+    400166: DEF-toe.L_end
+    400168: DEF-toe.L_end 1
+    400170: DEF-upper_arm.L
+    400172: DEF-upper_arm.L 1
+    400174: DEF-upper_arm.L.002
+    400176: DEF-upper_arm.L.002 1
+    400178: group13
+    400180: group31
+    400182: group32
+    400184: group37
+    400186: group38
+    400188: group4
+    400190: group48
+    400192: group49
+    400194: group50
+    400196: Obj_Pelusa
+    400198: ORG-Bone.001
+    400200: ORG-Bone.001 1
+    400202: ORG-Bone.002
+    400204: ORG-Bone.002 1
+    400206: ORG-Bone.003
+    400208: ORG-Bone.003 1
+    400210: ORG-Bone.004
+    400212: ORG-Bone.004 1
+    400214: ORG-Bone.005
+    400216: ORG-Bone.005 1
+    400218: ORG-Bone.006
+    400220: ORG-Bone.006 1
+    400222: ORG-Bone.007
+    400224: ORG-Bone.008
+    400226: ORG-Bone.008 1
+    400228: ORG-forearm.L
+    400230: ORG-forearm.L 1
+    400232: ORG-forearm.L.001
+    400234: ORG-forearm.L.001 1
+    400236: ORG-hand.L
+    400238: ORG-hand.L 1
+    400240: ORG-hand.L.001
+    400242: ORG-hand.L.001 1
+    400244: ORG-palm.02.L
+    400246: ORG-palm.02.L 1
+    400248: ORG-palm.02.L.001
+    400250: ORG-palm.02.L.001 1
+    400252: ORG-upper_arm.L
+    400254: ORG-upper_arm.L 1
+    400256: ORG-upper_arm.L.001
+    400258: ORG-upper_arm.L.001 1
+    400260: pasted__group12
+    400262: pasted__group32
+    400264: pasted__group33
+    400266: pasted__group33.001
+    400268: pasted__group34
+    400270: pasted__group4
+    400272: pasted__pasted__pCylinder1
+    400274: pasted__pasted__pCylinder2
+    400276: pasted__pasted__polySurface10
+    400278: pasted__pasted__polySurface9
+    400280: pasted__pCube9
+    400282: pasted__pCylinder35
+    400284: pCube44
+    400286: pCube45
+    400288: pCube47
+    400290: pCube54
+    400292: pCube58
+    400294: pCube61
+    400296: pCube62
+    400298: pCube62.001
+    400300: pCube63
+    400302: pCube63.001
+    400304: pCube64
+    400306: pCube65
+    400308: pCube68
+    400310: pCylinder1
+    400312: pCylinder17
+    400314: pCylinder20
+    400316: pCylinder21
+    400318: pCylinder22
+    400320: pCylinder25
+    400322: pCylinder27
+    400324: pCylinder6
+    400326: pCylinder7
+    400328: polySurface13
+    400330: polySurface15
+    400332: polySurface16
+    400334: polySurface18
+    400336: polySurface19
+    400338: polySurface20
+    400340: polySurface21
+    400342: polySurface22
+    400344: polySurface24
+    400346: polySurface25
+    400348: rig
+    400350: rig.001
+    400352: root
+    400354: root 1
+    2100000: lambert1
+    2100002: lambert1.003
+    4300000: group32
+    4300002: pCube68
+    4300004: pCylinder25
+    4300006: pCube64
+    4300008: pasted__group32
+    4300010: group31
+    4300012: pCube45
+    4300014: pCube44
+    4300016: pCylinder21
+    4300018: pCylinder17
+    4300020: pCylinder27
+    4300022: pCube47
+    4300024: pCube62
+    4300026: pCube61
+    4300028: pasted__pasted__pCylinder2
+    4300030: pasted__pasted__polySurface10
+    4300032: pCube63
+    4300034: pCylinder22
+    4300036: pasted__group34
+    4300038: pasted__group33
+    4300040: pasted__group4
+    4300042: pasted__group12
+    4300044: pCube58
+    4300046: pCylinder20
+    4300048: pasted__pasted__polySurface9
+    4300050: pasted__pasted__pCylinder1
+    4300052: pasted__group33.001
+    4300054: pCylinder7
+    4300056: group50
+    4300058: group49
+    4300060: group48
+    4300062: pCube54
+    4300064: pCube65
+    4300066: pCylinder6
+    4300068: pasted__pCylinder35
+    4300070: polySurface25
+    4300072: polySurface24
+    4300074: polySurface22
+    4300076: polySurface21
+    4300078: pCube63.001
+    4300080: pCube62.001
+    4300082: polySurface19
+    4300084: polySurface16
+    4300086: polySurface15
+    4300088: pasted__pCube9
+    4300090: polySurface18
+    4300092: polySurface13
+    4300094: polySurface20
+    4300096: group38
+    4300098: group37
+    4300100: pCylinder1
+    4300102: group4
+    4300104: group13
+    4300106: Obj_Pelusa
+    7400000: rig|reina
+    7400002: rig.001|rey
+    9500000: //RootNode
+    13700000: group13
+    13700002: group31
+    13700004: group32
+    13700006: group37
+    13700008: group38
+    13700010: group4
+    13700012: group48
+    13700014: group49
+    13700016: group50
+    13700018: Obj_Pelusa
+    13700020: pasted__group12
+    13700022: pasted__group32
+    13700024: pasted__group33
+    13700026: pasted__group33.001
+    13700028: pasted__group34
+    13700030: pasted__group4
+    13700032: pasted__pasted__pCylinder1
+    13700034: pasted__pasted__pCylinder2
+    13700036: pasted__pasted__polySurface10
+    13700038: pasted__pasted__polySurface9
+    13700040: pasted__pCube9
+    13700042: pasted__pCylinder35
+    13700044: pCube44
+    13700046: pCube45
+    13700048: pCube47
+    13700050: pCube54
+    13700052: pCube58
+    13700054: pCube61
+    13700056: pCube62
+    13700058: pCube62.001
+    13700060: pCube63
+    13700062: pCube63.001
+    13700064: pCube64
+    13700066: pCube65
+    13700068: pCube68
+    13700070: pCylinder1
+    13700072: pCylinder17
+    13700074: pCylinder20
+    13700076: pCylinder21
+    13700078: pCylinder22
+    13700080: pCylinder25
+    13700082: pCylinder27
+    13700084: pCylinder6
+    13700086: pCylinder7
+    13700088: polySurface13
+    13700090: polySurface15
+    13700092: polySurface16
+    13700094: polySurface18
+    13700096: polySurface19
+    13700098: polySurface20
+    13700100: polySurface21
+    13700102: polySurface22
+    13700104: polySurface24
+    13700106: polySurface25
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 078d2a10f27712a4c9e6d1ca8121bb0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1.003
+    second: {fileID: 2100000, guid: a8e954f8898752e4ab9d30c47e9e8450, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: rig|reina
+      takeName: rig|reina
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig.001|rey
+      takeName: rig.001|rey
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
