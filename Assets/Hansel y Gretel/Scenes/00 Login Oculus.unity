@@ -1427,21 +1427,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5080085794237036370, guid: 75839f5b9d9c628419484485082732c2,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2024
-      objectReference: {fileID: 0}
-    - target: {fileID: 5080085794237036370, guid: 75839f5b9d9c628419484485082732c2,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2024
-      objectReference: {fileID: 0}
-    - target: {fileID: 5080085794237036370, guid: 75839f5b9d9c628419484485082732c2,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2024
-      objectReference: {fileID: 0}
     - target: {fileID: 185000886343450408, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1460,11 +1445,6 @@ PrefabInstance:
     - target: {fileID: 292327138, guid: 75839f5b9d9c628419484485082732c2, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 185000886391844375, guid: 75839f5b9d9c628419484485082732c2,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.39999962
       objectReference: {fileID: 0}
     - target: {fileID: 7168042217512434694, guid: 75839f5b9d9c628419484485082732c2,
         type: 3}
@@ -1491,6 +1471,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_RichText
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5080085794237036370, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5080085794237036370, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5080085794237036370, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2024
+      objectReference: {fileID: 0}
+    - target: {fileID: 185000886391844375, guid: 75839f5b9d9c628419484485082732c2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.39999962
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75839f5b9d9c628419484485082732c2, type: 3}
@@ -55244,6 +55244,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas Keyboard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6686513467235448719, guid: a22b59f34ef82fb45adabcc54ad3f7a5,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 5168278723602248368, guid: f43e18167f8de5145b9d0856a9b083f6,
+        type: 3}
     - target: {fileID: 6686513467235448718, guid: a22b59f34ef82fb45adabcc54ad3f7a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55349,12 +55355,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 6686513467235448719, guid: a22b59f34ef82fb45adabcc54ad3f7a5,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 5168278723602248368, guid: f43e18167f8de5145b9d0856a9b083f6,
-        type: 3}
     - target: {fileID: 6686513466532035579, guid: a22b59f34ef82fb45adabcc54ad3f7a5,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -74661,7 +74661,7 @@ PrefabInstance:
     - target: {fileID: 4738398645077935205, guid: 6f5e989fc5fa33243bf127ad1e8d7a10,
         type: 3}
       propertyPath: Url
-      value: http://api.vrforkids.cl
+      value: http://api.vrforkid.org
       objectReference: {fileID: 0}
     - target: {fileID: 5684766665997066974, guid: 6f5e989fc5fa33243bf127ad1e8d7a10,
         type: 3}
@@ -74671,17 +74671,17 @@ PrefabInstance:
     - target: {fileID: 5684766665997066974, guid: 6f5e989fc5fa33243bf127ad1e8d7a10,
         type: 3}
       propertyPath: BaseResourceCode
-      value: 5d30a8b657028e7d3875a2b5
+      value: 5df2a4a102dcd0135f0e07d1
       objectReference: {fileID: 0}
     - target: {fileID: 5684766665997066974, guid: 6f5e989fc5fa33243bf127ad1e8d7a10,
         type: 3}
       propertyPath: FetchURL
-      value: http://api.vrforkids.cl
+      value: http://api.vrforkid.org
       objectReference: {fileID: 0}
     - target: {fileID: 5684766665997066974, guid: 6f5e989fc5fa33243bf127ad1e8d7a10,
         type: 3}
       propertyPath: ImageRepositoryURL
-      value: http://api.vrforkids.cl/preguntas
+      value: http://api.vrforkid.org/preguntas
       objectReference: {fileID: 0}
     - target: {fileID: 5684766665997066974, guid: 6f5e989fc5fa33243bf127ad1e8d7a10,
         type: 3}

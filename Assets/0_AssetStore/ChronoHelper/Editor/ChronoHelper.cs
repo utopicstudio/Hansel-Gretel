@@ -98,7 +98,7 @@ public class ChronoHelper : EditorWindow
 
     #region Constants
     private const float kChronoMinScale = 0.0f;
-    private const float kChronoMaxScale = 2.0f;
+    private const float kChronoMaxScale = 5.0f;
     private const float kHorizontalLayoutWidth = 600.0f;
     private const float kHorizontalLayoutHeight = 24.0f;
     private const float kVerticalLayoutHeight = 42.0f;
@@ -324,7 +324,7 @@ public class ChronoHelper : EditorWindow
         {
             var oldChronoScale = _chronoScale;
             var content = _isPlayMode ? kPlayModeTooltipContent : kEditModeTooltipContent;
-            _chronoScale = EditorGUILayout.Slider(_chronoScale, 0.0f, 2.0f, kChronoSliderExpandWidth, kChronoSliderMaxWidth);
+            _chronoScale = EditorGUILayout.Slider(_chronoScale, kChronoMinScale, kChronoMaxScale, kChronoSliderExpandWidth, kChronoSliderMaxWidth);
             DrawTooltipOverLastRect(content);
             if (oldChronoScale != _chronoScale)
             {

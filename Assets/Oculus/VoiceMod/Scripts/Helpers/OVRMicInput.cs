@@ -72,15 +72,15 @@ public class OVRMicInput : MonoBehaviour
 	private bool micSelected = false;
 	private int minFreq, maxFreq;
 	private bool focused = true;
-	
-	//----------------------------------------------------
-	// MONOBEHAVIOUR OVERRIDE FUNCTIONS
-	//----------------------------------------------------
 
-	/// <summary>
-	/// Awake this instance.
-	/// </summary>
-	void Awake()
+    //----------------------------------------------------
+    // MONOBEHAVIOUR OVERRIDE FUNCTIONS
+    //----------------------------------------------------
+#if !UNITY_WEBGL
+    /// <summary>
+    /// Awake this instance.
+    /// </summary>
+    void Awake()
 	{
 		// First thing to do, cache the unity audio source (can be managed by the
 		// user if audio source can change)
@@ -294,4 +294,5 @@ public class OVRMicInput : MonoBehaviour
 		// return OVRSpeechRec.GetAverageVolume();
 		return 0.0f;
 	}
+#endif
 }

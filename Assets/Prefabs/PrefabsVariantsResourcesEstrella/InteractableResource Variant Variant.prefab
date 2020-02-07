@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3262373380375717395, guid: 8943339422eeae04a8e02c67cdaa7faa,
         type: 3}
       propertyPath: m_Name
-      value: InteractableResource Variant
+      value: InteractableResource Variant Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3264961607471676165, guid: 8943339422eeae04a8e02c67cdaa7faa,
         type: 3}
@@ -66,6 +66,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3341532388898738071, guid: 8943339422eeae04a8e02c67cdaa7faa,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2254711096577792743, guid: 8943339422eeae04a8e02c67cdaa7faa,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 286250628991065049, guid: 8943339422eeae04a8e02c67cdaa7faa,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8943339422eeae04a8e02c67cdaa7faa, type: 3}

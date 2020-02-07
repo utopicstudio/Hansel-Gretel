@@ -78,7 +78,7 @@ public class OVRLipSyncMicInput : MonoBehaviour
     private int minFreq, maxFreq;
     private bool focused = true;
     private bool initialized = false;
-
+#if !UNITY_WEBGL
     //----------------------------------------------------
     // MONOBEHAVIOUR OVERRIDE FUNCTIONS
     //----------------------------------------------------
@@ -369,4 +369,5 @@ public class OVRLipSyncMicInput : MonoBehaviour
         // return OVRSpeechRec.GetAverageVolume();
         return 0.0f;
     }
+#endif
 }

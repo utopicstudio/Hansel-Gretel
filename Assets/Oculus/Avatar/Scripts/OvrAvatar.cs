@@ -968,6 +968,7 @@ public class OvrAvatar : MonoBehaviour
 
     bool IsValidMic()
     {
+#if !UNITY_WEBGL
         if (Microphone.devices.Length < 1)
         {
             return false;
@@ -991,7 +992,10 @@ public class OvrAvatar : MonoBehaviour
         }
 
         Microphone.End(selectedDevice);
-        return true;
+        return true;  
+#else
+        return false;
+#endif
     }
 
     void InitPostLoad()
