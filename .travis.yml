@@ -5,6 +5,15 @@ rvm:
 - jruby-19mode
 - rbx-2
 install:
-- ./Scripts/install.sh
+- "./Scripts/install.sh"
 script:
-- ./Scripts/build.sh
+- "./Scripts/build.sh"
+deploy:
+  provider: s3
+  access_key_id: Pandalex
+  secret_access_key:
+    secure: RwdsFCa5gp1JkZfjQ6Bv52gmaehcQGTZjem6amONIfBTn6z8gMkiF5IfPqTNpsLa0FHifgOG/NvZa7rvqPVOYJECQzwTF8b10CG5B9ujgR4sWaJeOE4G50TNtvIoJNcsV5bLyz/iy3Xt2mP+Z1LUVZKd7ckWZg7+A+fwLPWPCyU9FsiyAYCRHAoJEJZbakLildxDrNwKcBcuII1ennXdN9AKurjokbGtH6iPjZCgSPiDflobOWyKcvqybDQ0DfdIkKnu4Iz/y2YgXIxIllrTOiBMe++rJJZ8IJf2MRyGUNmoH3op+0qnqUhyq9Fl8xdoCC0WVjWizIOpndPeyk6/zjbJzN7UrYYDeqTrdCAs5rmaMHwk7aAYSZh9UJBevoo5uSk8zM9A/Yv5DUCFqgRo4IK0C4jHd7jWDv2ou0Rz+ZifT/4Jca5hbqqzFnqZKMAmScs2f3R9jzjwlkBAP1Lzp9nGb5kc/zeK0VZulTrcGDhAdXR/ozh2kPDPc35gV0UvuHw3lqdoka8bxggnxuvfETjgb6OOD+K1HOZPsslAx9of3uQfwiv50p+W6/QvNh8s2pzq+AyTHk3VyfX8+U6WFf3yjzvDK0/eZolEVT8RMd9VGv9CnYCUpYII4dl5kE+c9dVHqiMv4e5AQ36TMQQ/o0iViDKw17v7WSWHlUsjn5I=
+  bucket: S3 Bucket
+  acl: ''
+  on:
+    repo: utopicstudio/Hansel-Gretel
