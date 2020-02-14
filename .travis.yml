@@ -4,7 +4,9 @@ rvm:
 - 1.9.3
 - jruby-19mode
 - rbx-2
-- chmod +x build.sh
+before_install:
+- chmod a+x ./Scripts/install.sh
+- chmod a+x ./Scripts/build.sh
 install:
 - "./Scripts/install.sh"
 script:
