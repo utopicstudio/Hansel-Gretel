@@ -6,7 +6,7 @@ Unity project integrating a standard evaluation for reading comprehension on VR
 To test Hansel & Gretel VR you will need:
 
 ```
--Unity version 2018.3.1
+-Unity version 2019.2.0f1
 -Android Build Support
 -Java SE Development Kit 8
 ```
