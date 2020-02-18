@@ -1,19 +1,21 @@
-language: objective-c
-osx_image: xcode61
+language: ruby
 rvm:
-- 2.6.5
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
 before_install:
 - chmod a+x ./Scripts/install.sh
 - chmod a+x ./Scripts/build.sh
 install:
-- ./Scripts/install.sh
+- "./Scripts/install.sh"
 script:
-- ./Scripts/build.sh
+- "./Scripts/build.sh"
 deploy:
   provider: s3
-  access_key_id: Joder123Hermano
+  access_key_id: Alex
   secret_access_key:
-    secure: S2MkhrozeYzc3PCt3SOOI9dpONKgp/Urus2dPIKhKGe5YVcWyD5/DHYmjyMnzEheufY/h5DVI2SX++A3zwFJoztbYXrbsSU1E+/10kzrR3h83bsSzKFqn6M+5JtzGVDItVaLulxvy0jBa/Eh840iS5bRS9eElKEAO+zv2XYOx8b7p4hNwgADkvqyX/zbUY45TlM499w6qtvIhdoMJG1d3QrKz/3oGpmvqUMizMnUhXpevDKS22OKOCV1Hw1aOq7F7QpgeGaK+dXRQ5EWTUom5s64zcnvecbdcvxvkjEEO7r/cgnV6OA39r//OP38J/d/ErLzr9c0iKfsUZH968qwGF8zJKYKWUOIMHT+4p2WwXk3JdXzGNN2aw0Wdp9GGmhxgiQLezomhqhQ40n/FnK5eUgq8ZTycFop6WovXrZ71ZYhF7nZE2u4M1mKGUa0d3pohcLuH2d7B0AeN8JLtOVbfPlRBMLI59zP1dzAz7kKu4m+w/qgc7rjEJcCNv1+iI0w5Z1TMU7/OAkjHPhqc45t/bMKeHybxso6qneoOSUUDVD9KgwXlpKHE9D1Dydy55/gZnpegc8KK7f5cbLa8/c9+FC4D60HU7h0MuLlCSmzLnxIi/JpkzNHZXX0fejjfM5VucQDHsgnJS+Zj46bi6z/NGsESijgutmme0gbl75jhtc=
+    secure: kAg36FUXiC5+PGw3juQLopCibI6T73ENtY7Ubbn4peGGaIGQDQlew3KpzpauWMDobHcZUBZks62lfkMOLvUTpbIMwAxHN/QejV1cdXwKNxwqCJqew9MPoSiojAtKGxToUKVVxFE3ci30qXtx/Aa1lBb1zBZLsRb2yVEoiauUOlM8XyZu55+1jPmOOU6JeDJrL3+lQpmePY14SLyr9SUO56KcOT3E5MAHXoLiSC8KLl0MCpuuNnmBVebOlr7Xqhhtx/zjl9g0J0mMf/VmgdyxEKqf8nsne593K69jv8Tkinyk5wlHuqX2/DBA3D/y7WTKXLhm2wXfO+9WDplI7aN48g29x1b4WJvWCSmnMM74X7k+I2JrBMFhGUYD5eBrTmy6Fic7X866rPJWeVaTuTGxIaFjEPChlFCXriw00yME61m/7Z2MjPtP6EFG74wX4REbtR45uCm4w+Ca7G9dVWKPBD9TNnkN4tckhQ8ZWi/hAWFh56hUf7KWrtDKEiYvjIlQvoHLk8+Rjg3KD+Yf8HpQZ4f/d87EK7mQWNOclIIJyZc0ZfzoVGZXOxnHT553ax03HJr+LVRBuezrkAwTjqu/c17ypeMAW9zcvXTKlB42BU+iMSjDuLRw/7nEFPzIvyfmOKsK7j2jviGeRyvHBuLJYteNk+xZdCcu2tocNGB5AjI=
   bucket: S3 Bucket
   acl: ''
   on:
