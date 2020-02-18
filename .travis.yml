@@ -1,23 +1,10 @@
 language: objective-c
-osx_image: xcode61
-rvm:
-- 2.1.2
-before_install:
-- chmod a+x ./Scripts/install.sh
-- chmod a+x ./Scripts/build.sh
-install:
-- ./Scripts/install.sh
-script:
-- ./Scripts/build.sh
 deploy:
   provider: s3
-  access_key_id: AKIAITEPAI7MBUKSYRMQ
+  access_key_id: Joder123Hermano
   secret_access_key:
-    secure: ki6uIaFaL6dwExiC0HpTa5K2+YP8WNeWbjFSZBTZQub4esPYlmkw8JGsqLGOv+1ics2SaL+ZUxyP0ivRfUO3hzvFPuVb/iLU3tvmBJuGmSz411suvCOkK7OOA5gxrUr9oM0Y3Z/827OVHZmUIB2Plun/KU1PZ94KNPFDQce9yQA=
-  bucket: dev.jonathan.porta.codes
-  local-dir: Build
-  upload-dir: ci-build
-  skip_cleanup: true
-  acl: public_read
+    secure: S2MkhrozeYzc3PCt3SOOI9dpONKgp/Urus2dPIKhKGe5YVcWyD5/DHYmjyMnzEheufY/h5DVI2SX++A3zwFJoztbYXrbsSU1E+/10kzrR3h83bsSzKFqn6M+5JtzGVDItVaLulxvy0jBa/Eh840iS5bRS9eElKEAO+zv2XYOx8b7p4hNwgADkvqyX/zbUY45TlM499w6qtvIhdoMJG1d3QrKz/3oGpmvqUMizMnUhXpevDKS22OKOCV1Hw1aOq7F7QpgeGaK+dXRQ5EWTUom5s64zcnvecbdcvxvkjEEO7r/cgnV6OA39r//OP38J/d/ErLzr9c0iKfsUZH968qwGF8zJKYKWUOIMHT+4p2WwXk3JdXzGNN2aw0Wdp9GGmhxgiQLezomhqhQ40n/FnK5eUgq8ZTycFop6WovXrZ71ZYhF7nZE2u4M1mKGUa0d3pohcLuH2d7B0AeN8JLtOVbfPlRBMLI59zP1dzAz7kKu4m+w/qgc7rjEJcCNv1+iI0w5Z1TMU7/OAkjHPhqc45t/bMKeHybxso6qneoOSUUDVD9KgwXlpKHE9D1Dydy55/gZnpegc8KK7f5cbLa8/c9+FC4D60HU7h0MuLlCSmzLnxIi/JpkzNHZXX0fejjfM5VucQDHsgnJS+Zj46bi6z/NGsESijgutmme0gbl75jhtc=
+  bucket: S3 Bucket
+  acl: ''
   on:
-    repo: JonathanPorta/ci-build
+    repo: utopicstudio/Hansel-Gretel
