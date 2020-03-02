@@ -1,22 +1,30 @@
-language: ruby
-rvm:
-- 2.0.0
-- 1.9.3
-- jruby-19mode
-- rbx-2
+language: generic
+os: osx
+branches:
+  only:
+  - master
+notifications:
+  email:
+    on_success: never
+    on_failure: change
 before_install:
-- chmod a+x ./Scripts/install.sh
-- chmod a+x ./Scripts/build.sh
+- openssl aes-256-cbc -k "$KEYFILE_PASS" -in "${UPLOAD_KEYPATH}.enc" -out "${UPLOAD_KEYPATH}"
+  -d
 install:
-- "./Scripts/install.sh"
+- sudo -E sh ./Scripts/install.sh
 script:
-- "./Scripts/build.sh"
+- sudo -E sh ./Scripts/build.sh
+after_success:
+- sudo -E sh ./Scripts/post_build.sh
 deploy:
   provider: s3
-  access_key_id: Alex
+  access_key_id: Pandalex
   secret_access_key:
-    secure: kAg36FUXiC5+PGw3juQLopCibI6T73ENtY7Ubbn4peGGaIGQDQlew3KpzpauWMDobHcZUBZks62lfkMOLvUTpbIMwAxHN/QejV1cdXwKNxwqCJqew9MPoSiojAtKGxToUKVVxFE3ci30qXtx/Aa1lBb1zBZLsRb2yVEoiauUOlM8XyZu55+1jPmOOU6JeDJrL3+lQpmePY14SLyr9SUO56KcOT3E5MAHXoLiSC8KLl0MCpuuNnmBVebOlr7Xqhhtx/zjl9g0J0mMf/VmgdyxEKqf8nsne593K69jv8Tkinyk5wlHuqX2/DBA3D/y7WTKXLhm2wXfO+9WDplI7aN48g29x1b4WJvWCSmnMM74X7k+I2JrBMFhGUYD5eBrTmy6Fic7X866rPJWeVaTuTGxIaFjEPChlFCXriw00yME61m/7Z2MjPtP6EFG74wX4REbtR45uCm4w+Ca7G9dVWKPBD9TNnkN4tckhQ8ZWi/hAWFh56hUf7KWrtDKEiYvjIlQvoHLk8+Rjg3KD+Yf8HpQZ4f/d87EK7mQWNOclIIJyZc0ZfzoVGZXOxnHT553ax03HJr+LVRBuezrkAwTjqu/c17ypeMAW9zcvXTKlB42BU+iMSjDuLRw/7nEFPzIvyfmOKsK7j2jviGeRyvHBuLJYteNk+xZdCcu2tocNGB5AjI=
-  bucket: S3 Bucket
+    secure: aJgnSf5uwnINt8xxuAuTU6SZaZw472s5kd+kml57254A70TAPX+cU1lfrsJ5L0/tF9HFe50bWm0jgryg2AWGsW4gr6atrcdjnxENFR15le980nkonLPa3eNYjmuhqkHXaroaCYtG3fS9N+3bkIqBlajnVZ/fylMq/RA2WmFxRraxuN4hkpSe+J9pjGu8rNKHC6pITlUbAYL01WSlpEjVqwcb1UQEq1KuWDtGw3ExYCjcpibyDkf732qEDWr+C1+cTFz0+I73lOL62i0VYv5Yzx7kpJRSwPmgaKYZsrRkgSxW8Ho9i89PSt2YOlaSsQVKJMsW0dfWhEvSAMH7mU6wqIej57XqOcLEqKrLzcpMaGOxmxgLP7rz6JIC4O9ScJWI9d/u+lcOAfSgFB0bo8AmoEjvGdXT6WtYufzKSIsOWOMERT2L0ejC4CIObzw2ihNnGD6MryaxPL6+IE/F3pzC32ux91Nls+j0VI0rgBxow6DdQKa12H+Rfg5HlpBANqfoFDAfhLF+82Q9E6ruwXSXKa5UM2sknlDwWPhReyh1qq+f2nlxeFToDv3DJ4nhiYXWPgt+QWyZQsa8fraMUH3U7+mAbce4OvUx72EgCO+ffOdmSVGx6/lSNU2ps62rLTOaXzW4hrJyn+ps/P38n+1hfyWpysJtuj2e4CLG2C7CIqs=
+  bucket: MyBucket
   acl: ''
   on:
     repo: utopicstudio/Hansel-Gretel
+env:
+  global:
+    secure: K67qrKe1Q//1YTGaunZjexSJyrcBUCapprCGJK23gn8XXoZf8WfwU3qblSqShW1X87SVjoGm+KHP0ri9jumFXdVx4W8QGIbJAcy1uUbJoghsgHG5HKnQuvw9+d0d1MqmLGWwG29DJnJImzhb3jzVuPk5Uo+zw1XuM29KpKMNkSBwFbyeDfteabDRAtvxq7jChwJFvY5aovRQkI8UVNweueLjQKedfQpDX1Lsq5Ngh6ndhHHmX9HH1IlMz/9TxgaCSolYFPEeZdamOBI5oVXAcJ4WFVov1I5dENHw3W52A1PMFuNiK5Q+XB2Fy0Cn0XxAYAdYFL6MTmx3OicRRmcbYAebC5A6JtxgObmgKlSeVmBQsrEV4WOKf0fYBKaDrGvdoasQ+MhPVB/YbFPwjDrN9TbVOb5QJGG9+E9u3uCKnv+LVLDat2QZbFbZF4H3wpSdlqDpYAPgeg8XOxHLaKFYuwPML6MT1S7zZjUnli5nZhiQWO/0fE3/7cqdb6rbWwWEmwCzwDS8vFOr+sc9jBPOOCKRKjGSNVIguYkjSDyuj1LnP5gL2vYg1UXCpz6fwmfWRNu92zN3zrjL98Mz/7zBM3q3EVKAsHnlkbB4RKEgPneiUUfWXgRYykT1nfJSs+CTtBAwFFNbsOBzKHoBSW3JUvcukYbYxGFgldhQnG2s8ig=
