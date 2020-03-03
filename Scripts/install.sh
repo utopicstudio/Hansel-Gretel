@@ -10,4 +10,4 @@ if [ $? -ne 0 ]; then { echo "Download failed"; exit $?; } fi
 
 # Run installer(s)
 echo 'Installing Unity.pkg'
-sudo installer [-dumplog] -package Unity.pkg -target /
+sudo installer -dumplog -package Unity.pkg -target /
