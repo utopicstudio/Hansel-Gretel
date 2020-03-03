@@ -8,7 +8,8 @@ notifications:
     on_success: never
     on_failure: change
 before_install:
-- openssl aes-256-cbc -k "$KEYFILE_PASS" -in "${UPLOAD_KEYPATH}.enc" -out "${UPLOAD_KEYPATH}"
+- chmod a+x ./Scripts/install.sh
+- chmod a+x ./Scripts/build.sh
   -d
 install:
 - sudo -E sh ./Scripts/install.sh
