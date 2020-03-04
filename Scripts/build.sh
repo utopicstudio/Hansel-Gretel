@@ -7,7 +7,7 @@
 
 ## Run the editor unit tests
 echo "Running editor unit tests for Hansel y Gretel Fusion"
-export EVENT_NOKQUEUE=1
+
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
 	-batchmode \
 	-nographics \
@@ -21,6 +21,8 @@ export EVENT_NOKQUEUE=1
 rc0=$?
 echo "Unit test logs"
 cat $(pwd)/test.xml
+# exit if tests failed
+if [ $rc0 -ne 0 ]; then { echo "Failed unit tests"; exit $rc0; } fi
 
 echo "Attempting build of Hansel y Gretel Fusion for OSX"
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
