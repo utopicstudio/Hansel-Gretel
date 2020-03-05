@@ -9,5 +9,5 @@ curl --retry 5 -o Unity.pkg https://unity3d.com/get-unity/download?thank-you=upd
 if [ $? -ne 0 ]; then { echo "Download failed"; exit $?; } fi
 
 # Run installer(s)
-echo 'Installing Unity.pkg'
-sudo installer -dumplog -package Unity.pkg -target /
+echo 'Installing Unity.dmg'
+sudo installer -dumplog -package Unity.dmg -target /
