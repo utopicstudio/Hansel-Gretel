@@ -5,7 +5,7 @@
 # to get download URLs
 UNITY_DOWNLOAD_CACHE="$(pwd)/unity_download_cache"
 UNITY_OSX_PACKAGE_URL="https://download.unity3d.com/download_unity/20c1667945cf/MacEditorInstaller/Unity.pkg"
-UNITY_ANDROID_TARGET_PACKAGE_URL="https://download.unity3d.com/download_unity/f2970305fe1c/MacEditorTargetInstaller/UnitySetup-Android-Support-for-Editor-2019.2.0f1.pkg"
+UNITY_ANDROID_TARGET_PACKAGE_URL="https://download.unity3d.com/download_unity/20c1667945cf/MacEditorTargetInstaller/UnitySetup-Android-Support-for-Editor-2019.2.0f1.pkg"
 
 
 # Downloads a file if it does not exist
