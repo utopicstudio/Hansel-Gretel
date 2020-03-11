@@ -35,7 +35,6 @@ if [ $? = 0 ]; thenecho "Building Android apk completed successfully."
   ERROR_CODE=0
 elseecho "Building Android apk failed. Exited with $?."
   ERROR_CODE=1
-fi
 
 
 echo "Finishing with code $ERROR_CODE"

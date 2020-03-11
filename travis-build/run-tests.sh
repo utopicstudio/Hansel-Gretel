@@ -23,6 +23,6 @@ if [ $? = 0 ]; then
 else
   echo "One or more Editor tests failed. Exited with $?."
   ERROR_CODE=1
-fi
+
 
 exit $ERROR_CODE
