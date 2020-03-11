@@ -1,21 +1,24 @@
-language: generic
-os: osx
-branches:
-  only:
-  - master
-notifications:
-  email:
-    on_success: never
-    on_failure: change
+language: objective-c
+osx_image: xcode9.2
+rvm:
+- 2.2
+env:
+  global:
+  - secure: uyoaEIqg7LJGux/qq6cHqfU1QBu0pGZSdQ2vh53Wm0E3pA+KfPp1c2TudQRoljKW0Gtdi+BbAewPidxf8/2kpwMtxzBQKTw/NGUdaZdkHdfWM1B3jvJysW6HFvbFrmay8y5ogJK0aGCuOAyLL1M6mDRXBHMc1nTbWMiVnBEZCYdS7aU7/7MyDVMpmCbCMxp270DImJ/0ySIcEbN4iaJi7LtCix3EZlCFvo5tTVby2yN1MNJL+uEbpUGVXbr4cXVZFIiXb9hMYRmCWWtAjBF409fOjW7IiZnfaMFNO2MEAYR903xtL2nMD6lBdFjnXAMtw4zGTwLdOlpsR2rEcq0RjpE0JQJDTDjhyc1pixE89UjSuQGh3eK20WTVJzBxW2kWDOLCnpyXnF5MTL3uZHuAnscPrfDIr2VOYdZYTSrEwP2oWF5IqNxL709FnR7G7VcS3YiaG2Ydz/YQV7Kpc8YtAQXTi5hw8hhEOjPko/AuMwY6toF4RI6kScr8vByGu/sk+nSqR9/ciXyq5zit4ulIwWxR7EdYp31tniQlm9fK13HAmAHBliagqjdyS6UGt00LcQ0WiBUwaedArGFnAzNoOrHy1e19npJGbmZO9AYi0roZgk5Tfve6LUPALzeTlhatCMuTke/TjmtuZehKlfv1dNefVgaJ/AXE85sW+r6LJjE=
+  - secure: afWYFxQ2OoCRN7CWpWM6Ba7IBJKhum5DBpXeLy7+2mdQn5FNV79UGrYBU/smHhkCppdEnqIhbhaQ2SmxliR/SPnzhHSeN8uYAQq95aE6Cf5CiWcwCO71Ab9arVhmtdVRFT2RQ1TaS2kSCbB9zcdB/OYLrg2YwtlPpoogdgJ4ZUulTSqkLP137KgXuL4o7CFgvAOz9MflJ/t35KYEHLzs1uUS/ej/II8cKB2nK4CCjB+6r87XNdqCAxVQbKkBTI8fXSbq21ATtdE1hLon1T6fuM5+pPf+0GNQvjXNQ/2ykZ99+nenTOLGS5awa6cHlhPMeRBZ4/9XDgNIXo7eVj0st0xuX0wzHh4SM07XBRLrzAE/W897VIhhVby6a6wEHxv+O8NsYk8z0mChz+DY626l9p5ayd1hEJQfzdHIlz1TcuAQ1ZsDwQJqDQ9dknVuT8B9zAI5Qn+F2LtqVKv+ufWhRlKNUdb/mkXX1XrAAAizykI5KX7DLYNAhXtNvVvkC0HF1+3+Q0MTWCMHv6uSL2L3jksio5JyxeBXBhuqQIEUZarFrw5+AgmuFw2Y/CEexicIMyoJ4WcoXQjT1NKRGNbKDteM9EQ7UvAz/rzL5TAZ/iXVylZeIHgxDv9U15XwBAElzhMdQdnGd2D8g2qyCHD0m51ki/szMOWj9SFHEK0yO0E=
+  - secure: lqBsALP5nw9w6YeQHV4zpvGU1cLUxudyFEJ0yhTEhZq/kJlXEWuZ2if/LE1SsfnhEsn+uHCmu3ty5vV0zBc2mawNobbIN0FfvVbogXaoqxdV8jHGg7tAYtwtgKxGGeMGHFcGF6RqgTDB49HHXyjsLYiWjrlyl6QTjW3a+P7Lh5RyU0AKkabFF2C+9M76l+vWdzy4zcEc+BeE0jZPP/W0TXkwvJh3Zc7BuEJ13JoSPXQ8skBzc5bu5s+0Bin/6VlsjfQ0T3kL8mX00gWJMYMEybrWmHMPlru0n+d6DGMCzTLC0Z2+qLydtvLaiYc9NWBDvP81c9nU6EyDq5JrEhnzLBErsKLVV47nUwM1vPH2QmzPVWnh7xoOQkdSYiaXMlIdYFFOksWnXFpLunvHrF5MCbYVdMonrZbXvykYsdWCC6F19Ru4ye9OPkAOiDtOLxnvgh78aPpRAk2B6IeY+4tmaHY0D4c2+nGklhqyudwXJAaJogrr+JDefYNrrqUOEt/UMHqz7FxvcC2Qy0Mm/suYaqlDzynFeMLEsWCM2pFXzZRjzucMRVjWEiQpEDijWPMlx/texqf2r2cW2wienaj7K+uA2pai6QaMfg9tcPU2aRILrCE8gj0xcw+Nqhuc2nofIgrWNWo9tzf7RQI//U9+RWeX7C7INHMecKBRglLBKpw=
+cache:
+  directories:
+  - "$UNITY_DOWNLOAD_CACHE"
 before_install:
-- chmod a+x ./Scripts/install.sh
-- chmod a+x ./Scripts/build.sh
+- chmod a+x ./travis-build/*.sh
 install:
-- sudo -E sh ./Scripts/install.sh
+- cat /etc/hosts
+- "./travis-build/install-unity.sh"
 script:
-- sudo -E sh ./Scripts/build.sh
-after_success:
-- sudo -E sh ./Scripts/post_build.sh
+- "./travis-build/build.sh"
+- "./travis-build/run-tests.sh"
+- "./travis-build/clean-up.sh"
 deploy:
   provider: s3
   access_key_id: Pandalex
@@ -25,6 +28,3 @@ deploy:
   acl: ''
   on:
     repo: utopicstudio/Hansel-Gretel
-env:
-  global:
-    secure: K67qrKe1Q//1YTGaunZjexSJyrcBUCapprCGJK23gn8XXoZf8WfwU3qblSqShW1X87SVjoGm+KHP0ri9jumFXdVx4W8QGIbJAcy1uUbJoghsgHG5HKnQuvw9+d0d1MqmLGWwG29DJnJImzhb3jzVuPk5Uo+zw1XuM29KpKMNkSBwFbyeDfteabDRAtvxq7jChwJFvY5aovRQkI8UVNweueLjQKedfQpDX1Lsq5Ngh6ndhHHmX9HH1IlMz/9TxgaCSolYFPEeZdamOBI5oVXAcJ4WFVov1I5dENHw3W52A1PMFuNiK5Q+XB2Fy0Cn0XxAYAdYFL6MTmx3OicRRmcbYAebC5A6JtxgObmgKlSeVmBQsrEV4WOKf0fYBKaDrGvdoasQ+MhPVB/YbFPwjDrN9TbVOb5QJGG9+E9u3uCKnv+LVLDat2QZbFbZF4H3wpSdlqDpYAPgeg8XOxHLaKFYuwPML6MT1S7zZjUnli5nZhiQWO/0fE3/7cqdb6rbWwWEmwCzwDS8vFOr+sc9jBPOOCKRKjGSNVIguYkjSDyuj1LnP5gL2vYg1UXCpz6fwmfWRNu92zN3zrjL98Mz/7zBM3q3EVKAsHnlkbB4RKEgPneiUUfWXgRYykT1nfJSs+CTtBAwFFNbsOBzKHoBSW3JUvcukYbYxGFgldhQnG2s8ig=
