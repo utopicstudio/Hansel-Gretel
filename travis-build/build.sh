@@ -15,7 +15,23 @@ ls "$PROJECT_PATH"
 
 
 echo "Building project for Android..."
+
+echo "Create Certificate Folder"
+mkdir ~/Library/Unity
+mkdir ~/Library/Unity/Certificates
+
+cp CACerts.pem ~/Library/Unity/Certificates/
+
+echo "activate license"
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -serial "$UNITYKEY" -username "$UNITYEMAIL" -password "$UNITYPASSWORD" -logfile
+
+cat ~/Library/Logs/Unity/Editor.log
+
+echo "return license"
+
 mkdir $UNITY_BUILD_DIR
+/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -returnlicense -logfile
+
 export EVENT_NOKQUEUE=1
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
   --args buildName $UNITY_BUILD_APK_NAME \
