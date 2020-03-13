@@ -16,6 +16,7 @@ ls "$PROJECT_PATH"
 
 echo "Building project for Android..."
 mkdir $UNITY_BUILD_DIR
+export EVENT_NOKQUEUE=1
 /Applications/Unity/Unity.app/Contents/MacOS/Unity \
   --args buildName $UNITY_BUILD_APK_NAME \
   -batchmode \
