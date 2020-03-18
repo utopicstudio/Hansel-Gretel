@@ -13,6 +13,8 @@ ERROR_CODE=1
 echo "Items in project path ($PROJECT_PATH):"
 ls "$PROJECT_PATH"
 
+brew uninstall --force tmux
+brew install --HEAD tmux
 
 echo "Building project for Android..."
 mkdir $UNITY_BUILD_DIR
