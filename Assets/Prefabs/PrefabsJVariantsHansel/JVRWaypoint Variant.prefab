@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8253077113571085845, guid: b0ffa6b58940d914ca424ea330307385,
         type: 3}
       propertyPath: m_Name
-      value: JVRWaypoint
+      value: JVRWaypoint Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3962148598262921261, guid: b0ffa6b58940d914ca424ea330307385,
         type: 3}
@@ -66,6 +66,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6015613284842692842, guid: b0ffa6b58940d914ca424ea330307385,
+        type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0ffa6b58940d914ca424ea330307385, type: 3}
